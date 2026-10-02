@@ -1,0 +1,1329 @@
+VOICE MEMOS — SEPTEMBER 24, 2026
+
+Nine recordings from Voice Memos, in chronological order.
+Total recording duration: 2 hours, 55 minutes, 43 seconds.
+
+Source note: The transcript wording is preserved as displayed by Voice Memos. Automatic transcription errors, incomplete sentences, and recording cutoffs have not been corrected. Paragraph separators are rendered as blank lines for readability. Recording titles have been trimmed of surrounding spaces. Voice Memos generated the transcript for Focused + Weber Shandwick during this export.
+
+================================================================================
+RECORDING 1: Keynote
+Date: September 24, 2026
+Duration: 31 minutes, 14 seconds
+================================================================================
+
+Only 3 years ago, it was kind of all this kind of really kicked off. Actually, a little bit before that, when you link came on, But in 2023, we were building prototypes in 2024, we were shipping some of these simple applications, their production, but they were still like the same law line calls. 2025, we started exploring agents. And really this year, we started seeing that agents have transformed the application layer. 
+
+And so a lot of talks that you'll hear from today are companies that are doing exactly that. They're taking these LLMs and they're really building them into differentiated experiences. So it's not just the model that they're providing to their customers. 
+
+It's everything around them all. And so we're seeing that these domain specific agents, they're not just rappers, they're providing real value to folks. And people are having to build, a lot of things are normal to properly take advantage of that. 
+
+And so, point out, I see them, so Robo will do a fireside chat with them later. Today, they had a great lawn where they wrote about how they build a specialized harness, with model routing, providing their main specific agent for finance. Part of me, who we heard from as more previous interrupts, has been talking a lot about how they find new models for specialized tasks. 
+
+They have the best performance on people domain. And then taking more exchange, we'll hear from that later in the day, a little bit of different use space. internal use space, but customizing the harness around them all to provide a lot of internal advantages for the agents that they're building as part of their Jarvis's sound way of life. So all of these are examples of companies taking the model, building a lot of stuff around it, maybe truly theirs, and the phrase that has been going around to really exemplify all this is only your intelligence. 
+
+When we talk about learning your intelligence, we talk about all of these examples, basically building a lot of domain specific things in and around the models to make it truly best for the domain that you're trying to tackle. Really when you're intelligent. And we think there's a few reasons why else has become a phrase that's on mind for so many people these days. 
+
+First token costs are rising a lot. People are spending more and more on AI. So as they do so, they want to make sure that they're getting their proper RII, be able to control and monitor something possibly important. 
+
+And so only your intelligence in that regard is a key factor. Second, we see open models becoming more and more popular. So this provides not only a really cheap alternative in order to own the total cost mark, but it also lets you customize things more. 
+
+And so as these base openweight models get better and better, you can start to post-train them, you can start to use them in specialized ways. And that just makes it easier than ever really on your intelligence. And the last thing that I think has become pretty clear over the past year, is that the models themselves are becoming somewhat commoditized, and it's all this stuff around the model, in particular, the data, whether that is actual kind of like context you're providing, or some of the domain specific paths that you're making into the harness, this is becoming the differentiator, you provide a lot of value for folks. 
+
+And so because of all of these factors, we're seeing people want to own their intelligence more and more. And that's how we think about our mission as a company. It's always been this way. 
+
+Lang Chang got started a month before Tag UT, but really took off after when people saw that came out and they were like, I want that, but for my industry, for my vertical, um, and then a big value of Hawaii tank has always been kind of like the model optionality. So from the beginning, people were building these domain specific things that were naturally kind of like decoupled from the model. And so this mission of kind of like owning intelligence has been something we've thought a lot about, and we think there's 3 core pillars to this. 
+
+And this is what we help folks. So the 1st 4 color is open and controllable hardness. And so there's there's 2 kind of like CRC. 
+
+One, we think the harness needs to be modeled neutral. So you shouldn't be cuddled to a particular model. This is both offensive and defensive. 
+
+When the best new model comes out, whether it's from open AI or anthropic or typesafe with some of their junk balls, you want to be able to switch your harness to that as quickly as possible. And so your harness needs to be able to adapt to the best model. It's also defensive. 
+
+You don't want to get locked into a single model provider so that they can raise rates and things like that. The other part of this open and controllable harness is, again, what we talked about in terms of making these agents, like, really domain specific. All that is about bringing specialized contacts in particular ways to the model at the F integrating the right context at the right point in time. 
+
+And you can really control what the harness does. And what that control looks like could look different for different scenarios. So we've had light graph for a while, which is an open source framework, for really creating these directed graphs. that's a really controllable way of bringing this harness. 
+
+We also have deep agents now, and I'll talk about that later, but that's another kind of like open source model harness. We have a concept of middleware effect, which is a different way of injecting, like, decisions to make and things to do into this core agentic movement. So regardless of what is, you need a way to control, really, in real detail, what's going in to the model. 
+
+The 2nd core color that we think makes off learning your intelligence is compounding, specifically compounding the intelligence that you get from when people use your system. So when you launch an agent, that is far from having a successful agent. You need to learn from how people use the agent, what the agent does, see where it makes mistakes. and be able to compound that agent's intelligence, whether manually, by seeing errors, and updating code, updating the prompt, or more automatically, whether that's with memory or compound automation things, this compounding unit is really important to build into your systems and to own. 
+
+If you can define what better and what best looks like for your domain better than anyone else, you will be able to build the best agent for that. So how many evals that define what good looks like, and then he'll climb on those evals and compounding that intelligence is a really good way to build these specific agents. And then last, we've gone. 
+
+So this is really crucial for internal unions. We're seeing a ton of companies transform whether they do internal operations, but when you have a lot of Indians running around, you need to make sure that they're properly governed. You need to make sure that you know how many exist, that you can control costs, that you can handle off reliably, so different people accessing it and you have access to what they should have access to. 
+
+And so we see that governance is becoming an increasingly big topic around only your intelligence. And so this is how we think about the 3 core pillars of only intelligence. And we think there's a bunch of different ways that you can get there. 
+
+And so calling 3 out at high level, people process and technology. And we're going to talk most about technology. during the rest of the keynote, but I want to touch really, briefly on people in process, because those are also needed to transform your organization into an organization that, you know, is intelligence. So touching it really briefly on people, this is roughly how we see a lot of organizations to be built. 
+
+There's a ring one of like core platform engineers. These provide a lot of tools for other people to build agents. When we talk about governance, when we talk about these, this kind of like eval and counting, these provide that platform that other agent building teams internally can be used to build and govern and compound their agents. 
+
+Outside of that, we see agent engineers. This is a great term to describe the weird hybrid mix of data scientists and engineer and machine learning engineer that makes up the people who are driving these agents. And it's a new skill set, and we see a lot of people from different disciplines coming in to be agent engineers, consuming things from the core bathroom team. 
+
+And then lastly, there are a ton of subject matter experts inside and outside a company. You often invest people to decide what good looks like for an agent. And so having a platform that can touch those non-developers that they are just superimported. 
+
+And so people and kind of like setting up your organization to have this type of model is what we see people doing. We also see people either implicitly or explicitly adopting a kind of like new process for building agents. As I mentioned before, it's very inertative. 
+
+You 1st watch an agent, it's not going to be good, you need to iterate. And so there's this life cycle, this loop, that people are adopting in order to really get agents. You good enough, roughly speaking, it's build, task deploy, monitor, and then crucially, when you take those monitor learnings, and you bring them back into the build step. 
+
+And of course, you want to do all of this in a government way, and we'll come back to this a little bit later, but people are doing this type of process all the time to improve their agents. And then I want to talk about the technology. And when we think about the technology and the technology that we help build and provide, there's really like 2 core parts to it. 
+
+So one is the runtime. This is how we got started with the open source language Libraries. They continue to do open source things with length, craft, and deep agents. 
+
+And then, of course, we want to build ages that don't just run locally on your laptop, but run in the cloud, you can serve everyone inside your board or the customers that you're building for. So there's an employment aspect to this runtime as well. And then there's this observability of E-Fouse bar, which is really crucial for the compounding layer. 
+
+And so being able to see what agents are doing and measure how good they are, they mean, is really important. So these are 2 kinds of core pallors of things that we build. And recently, we've also focused on kind of like a 3rd part, which is an intelligence layer that sits above that. 
+
+So now, when we think about Lang Smith and our commercial platform, we see the value serving the runtime aspect, serving the a germinability, you know, aspect, and then building an intelligence across the platform to really help people utilize these components and speed up that process, that Asian development lifecycle that I talked about earlier. And so, for the next few minutes, I want to walk through these kind of like 3 core parts of our platform and talk about some of the cool things that we're doing and where we think the feature's going. So I want to start with Renton. 
+
+And so what is the runtime for kind of liking agent look like? When we think of an agent, we generally think that there are being 3 components. There's the business logic. 
+
+So this is things like instructions, tools, skills, books, and these are things that you guys have to provide when you're building your need specific issues. What skills for a financial agent might look like very different than what skills for a legal agent might look like. And so this is the business logic that everyone out here will provide the agents. 
+
+Then there's the harness. So the harness is what takes the model, takes a lot of instruments, specific context. basically wires it all up so that the model can see the right context at the right time. This can be a very kind of like custom harness that you might build in lane graph, or it could be a more kind of like general purchase harness to proceed more and more of. 
+
+And so that's why we built deep agents. And so deep agents is our newest open source library. We launched it about a year ago. 
+
+It's off the shelf, aging harness. It learns a lot from what coding agents do. So it has an execution environment with a file system. sandbox. 
+
+It does a lot of context management in ways that quoting agents do it with compassion, but it's built so that you can build these domain specific agents. And then lastly, there's the infrastructure, and so if you take this agent and it's running the open on your laptop, great, you want to bring it to the cloud, there's all of these components that you're going to need to add in so that it can run remotely. You want a runtime server that if they're an execution, you'll want some way to access pools securely. 
+
+You'll want some way to run this code that it writes. We see a lot of agents writing, even if they're not who you name it. you need to access models. So there's all this infrastructure that goes into it as well. 
+
+And so these are a lot of the components that we've built into langs and pieces where we have langs with deployments, that's really around the age of runtime. We have, like you said, sandboxes, we're running codes, you need beta, we'll have an LLS gateway in Lang Smith. I'll talk about that, but that's for access to models. 
+
+And then tool server, something that we're working on for easy access to tools. And so there's these different components that make up the infrastructure. And one of the things that we launched in beta, at last interrupt, but I want to spotlight here quick, is managed deep patients. 
+
+So managed be patients basically takes this harness and the managed infrastructure combines it into one. And so now your ability and even, you just provide your business life, and then you get the harness and manage infrastructure together. So that's a lot easier to get started with than having to go business logic to harness with someone, all these 3 or 4 or 5 different pieces of infrastructure. 
+
+And so we're really, really excited about the management agents platform as a way to accelerate time to value. We just need to kind of like production for a lot of these agents. There's a few things that we're announcing today as part of the new managing patients release that we think will help even more accessible. 
+
+So 1st one of the hard parts of building these, especially internal, kind of like company agents, is off and making sure that the right people can access and use the agent, but also that when they use the agent, if the agent connects the notion or Jira, it's connecting either on behalf of the user or as the agent's kind of like fix set of identity. And what the right answer is might depend. So we're introducing a lot of different primitives in managed agents to facilitate this type of connections. 
+
+So 1st is connections, these are basically tools. When you have a tool server, which is how many images connects the tools, you can specify how you want your end users to off to those connections. So we're using off there, related to that, we have this idea of identity for agents, this defines the agent to be either kind of like user permission or service permission on hold. 
+
+And the 3rd is channels. So a big part of building these agents is exposing them. People slack is a massive one. 
+
+We have agents in slack. How do you deal with often like a shared channel? If iMessage it in a share, call that channel, my go-worker messages it, who's off does it use for which runs? 
+
+A lot of that were making in to off the shelf channels and manage key pages. So hopefully make the off problem a lot easier. Second, we're adding more things around memory, into manage keep agents. 
+
+And so managing agents have always had a concept of agent level memory, we're now adding in user level memory, so this means that it can remember things specific to the individual users that it interacts with. This is really powerful for customizing agents. And then the 3rd we're added in both in tools. 
+
+So one of the most common things that agencies do is search the web. And so we're adding a built-in tool via parallel so that agents can access the weapons. So now you no longer have to go get a separate AVI for that. 
+
+You can just use your money, something, PIP, use it with managed PPA, and get access to the parallel web search, MCP. And so putting this all together, managing data do things the easiest way to go from the business logic to an agent that's actually running the production. We've been working with a number of early design partners on this, and we've seen really the results expected through getting an agent up and running, and having it be like this company carpet. 
+
+And that's how we think about manatee payments. Is this company Irish, that makes it really easy to get started, building and sharing it, it's inside work. The next thing that I'm talking about on the spotlight is decision models. 
+
+And so over the weekends I, as I'm sure many of you did play around with Jets. So it launched over the weekend. It's a really interesting new type of model. 
+
+So what exactly is that? Is the decision model? What does that mean? 
+
+It basically means that it makes decisions. You send an escape, you send it a list of questions, it can then score those questions and there's different things that you have swore on, so it can either be like a bullion or an actual score or a categorical choice. But it makes basically these decisions. 
+
+It can't generate tests, but it can make decisions. And so even though it's more limited, we think this is really interesting. We think there are a bunch of different types of models and a bunch of different types of ancient harnesses that they'll be done. 
+
+So we think absolutely there will be these frontier models that are driving these really complex hardness. That's what you're going to use in like plot code and Kodaks and deep agents. They sneak advantage of these relations here models. 
+
+But there's also a ton of other decisions that need to be made. And that's where we think a decision model can be really helpful. And maybe these are small things that actually go along with the frontier model, or maybe they empower the blame graph, cognitive architectures, and routing between different things. 
+
+And so calling out a few of the things that we think these decision models are really useful. One is evals. So either running after the fact or in the loop. 
+
+If you have an agent doing work, if you can score it quickly according to some criteria as it's running, that's really powerful because then you can catch mistakes in real time. Two guardrails, so flat in user input, really fast. So we were talking to some people yesterday and we were talking about art rails. 
+
+One of the downsides of the bargails is that always adds latency. If now we can add in a really low latency web, that's really cool and powerful. So we're excited after that. 
+
+And then lasting model writing as well, choosing which agents or which models or which skills or tools to load, we do things like jazz would be really, really useful for that. So you can access Jab through the links and follow the gateway. You can also access an open source decision model that are hosting there called SAMF. 
+
+There's been a massive explosion in these open source decision models since Jeff Launched. We think this is a neat type of model that there will absolutely be a lot of optics for. I'm really, really excited to have power and host a lot of pieces through our daylight. 
+
+Speaking really quickly on our gateway, this is the last thing in the runtime that I want to spotlight. So we launched linksmith, LL gateway, data about a month or 2 ago. There's 2 main things that I want to highlight. 
+
+One, we try to make it so that the gateway can be used in all the online applications that you're building, whether they are customer facing or internal. So specifically, we normalize everything through open AI and actually endropic message format. So you can access it there. 
+
+But we also allow straight pass through, in case there are new features that come out in these APIs and you just want to take advantage of. And then we also have a bunch of cooney integrations. So Kodaks apply code and cursor. 
+
+Again, we think you should be rowing all of your traffic for governance and cost control reasons. You think you should be routing all this sort of single out gateway. And so that means it needs to integrate with every application that's unique in AI. 
+
+And so we want to make it so really easy to plug into all of those. And the main kind of features that we're focusing on, one is toss controls, having cost visibility, but also setting spend limits for different teams, different users, different APIPs. 2 is rate limiting, so making sure that there's not a single application that's really frauduling or taking up a lot of fusions there. And the 3rd is fallbacks. 
+
+So you can fall back to different model providers when you get an error. And then one of the things that we'll be watching soon is actually more steeple all back. So if you notice that requests are failing and anthropic might be down, you don't even try them for the future. 
+
+You just switch over to open AI for the next 10 minutes or 30 minutes and they get really configurable in that way. And so we wanted to make lengths of LM gateway, the most kind of like secure and reliable way to monitor and govern and fall back on different LLM providers when you're using them. So that's everything that we've got going on in the runtime space. 
+
+I now want to talk about observability and evils for a little bit. This isn't the space that we think is crucial to really power that compounding loop. And where we've done a ton of stuff over the pack here, but especially over the past month. 
+
+So we think traces are really the core of this, when you think about this loop, this process that I mentioned, we think traces being the system of record and showing what the agent does at all steps, are really, really important to be able to power this kind of like learning loop. When we've talked about traces previously, we've talked about basically runs, traces, and threads. And so Iran is like a single-all lump call. 
+
+A trace is like a single implication of an agent. And then Fred is a series of traces, basically. So when you have a multi-turn interaction, So these are all really useful primitives, but it's become pretty clear over the past year or so that there's a more useful standard for how to represent what agents do. 
+
+And this is what we're calling trajectories. And so a lot of the agents these days, whether they're coding agents or 1st party agents, run in a similar way, where they basically run all of in a loop and compile this list of messages. This list of messages is a standard format that can be used in a lot of really interesting ways. 
+
+And so today, one of the things that we're excited to launch is link some introductories away to standardly interact with these trajectories and use them in a bunch of places. So let's take one. So, what introductors do? 
+
+We think there's two main benefits to them. One, they may debugging a lot faster. So if you use lengths before and you've had a really complex trace, ones that have 1000s of kind of, like, iterations, you might have noticed that it's pretty hard to parse through all that. 
+
+So the length of structures in the UI have a much more user-friendly interface for viewing what's going on. They'll look basically as if you're using like a coding agent or a chat agent, we basically condense and display pool calls in the same way that those do, so you can easily kind of like scan through them. One main benefit of this is simpler annotation. 
+
+So now that you can see what's going on, you can need feedback on them much more easily. A 3rd big benefit, that we think, is it's actually much easier post-training models. So when you post train models, you commonly have these trajectories that are in this kind of like standard format. 
+
+And so we do a lot of work in the back ends to parse these really complicating kind of like trace of formats that come in from all these different SDKs and different hooding agents and expose them in a standard directory format. This can be used really, really easily in fine tuning. When we talk about fine tuning, they're struggling 2 pieces, there's the data and this will come from a lot of the traces and from a lot of those trajectories. 
+
+And then there's an inference in training infrastructure. And so we want to make it as easy as possible to bring these 2 things together, which is why we're also announcing linksmith fine tuning today. So what does this need? 
+
+So you have all your data in Lanksmith. These are all the traces which are now torn into this trajectory format, which is a much more condensed standard representation of what's going on. You can then use the Smithton CLI, which is the CLI of RMG today, to basically select traces, filter down to relevant ones, pre-process those traces in a way that makes them even more fine and ready, that pass them into fireworks or base 10, which is the training and inference infrastructure to do the actual training. 
+
+It will then then evaluate the models from there. And as the output you get an optimized model. And so we think this is a really powerful way to get started, fine tuning, whether it's on agents, or classification tasks, or guard rails, or anything like that. 
+
+We want to help you all take the most advantage of all the data that's in length. And so we think exactly is power a lot of this. Now, where were storing these productories, is Smith B? 
+
+He launched this at interrupt a few months ago. This is a database that we built in-house, and it's really good for Indian workloads. It's a lot faster to index and store inquiring a lot of these workloads. 
+
+We've made trajectories, show up really nicely in that. So, for example, I was talking about what they might look like earlier, this is a screenshot. You can see that you can dance a lot of the long tool calls that are going on, but you can click into those, expand those, you can click into it, now on call, and jump directly into that. 
+
+So we try to make it look as nice as possible. But we know there's a ton of different ways to actually visualize the data that you're working with. And so that's why today we're also launching Langsmith custom apps. 
+
+Let's watch a video on that. So, Lanky, that's Max, you can basically think of as lovable, but for your data that's already on Lanks. So you can chat with it, it'll create a completely custom app. 
+
+We have, we actually open source, our design system, so that affiliation that we use under the hood can leverage it. And comes built in with all the permissions for sharing with your team and respecting the workspace or our back or a back boundaries that you've set up. And so we think this is a really powerful way to bring humans into the loop and inspect data. 
+
+So that's what we're launching for observability evals. The last thing I want to talk about is intelligence. So I mentioned earlier that there is this process, this life cycle for building agents. 
+
+You build an agent, you then test it deploy a monitor. One of the things that we launched, previously, I interrupt, is Lane Smith's enemy. So Lang Smith's engine is an engine that sits on top of this whole, specifically, it sits on top of your traces in a tracing project. 
+
+It runs in the background, and it basically does all the things that an engineer didn't. It looks at issues, it tries to cluster that, it creates this, like, issue board, it tries to fix it with code, it tries to add a valuator, adds into data set. And so this is something we've been working on for the past 6 months of show, and we've been working on a lot of improvements. 
+
+And so today we're copying off a lot of those in and out seeing engine V2. So let's take a quick look at a video and then I'm gonna walk through a few of the exciting things in here after that. So I want to call out a few of the things in there. 
+
+First, I want to call out the engine for now passing fixes proactively. So what exactly does this mean? So this integrates really nicely with layers of deployments, which we talked about at runtime. 
+
+So specifically, as you know, spot issues and traces, it will spin up a preview branch on your employment. It'll confirm that that issue is in fact an issue. It will then make a fix, spin up a preview branch for that fix, run it against that to confirm that it's fixed, and then basically present it as an issue that you can go in and see all that evidence that actually issue was real, and then the fix now fixes it. 
+
+So again, this integrates right now with links with deployments, and that's how we was there. Another thing that I want to call out is red teaming. So, previously, I didn't only identify issues that existed in traces that people were sending to that that would happen in the wild. 
+
+With red people empty now, simulate different issues, and then see what happens. So specifically, engine will, any guys, integrates with links with employments for now, which is how we know how to call it. So links of engine will basically have access to the deployment. 
+
+It will spit up different issues, different hypotheses, run these against the deployment. identify which ones produce bad results or bad could be, it learns something that shouldn't have, it produces a bad result. It is off brand in some way, and then it will flag any issues to you. So this is really good for identifying places where the where your agent fails. 
+
+It's also really good for creating an initial eval data set. So we've heard for a while that creating evils is really hard and really painful. And so this helps automate a lot of that. 
+
+This can absolutely be used before you even check your agent into production, and before those issues even occur. Another thing I want to call out is the performance improvements that the team has made. So we've worked really hard on making it both better at finding issues, better at fixing issues, and then also making it a lot cheaper as well. 
+
+And so a lot of these are copied up into NMV too, which is why I'm passive now. Engine has already scammed over 70000000 traces and attacked it over 21,000 issues. It's used by a lot of the fastest growing AI companies out there to really speed up that iteration cycle, that iteration cycle is everything in your ability agents. 
+
+So anything you can do that helps speed that up, we will absolutely go. And the last thing I want to announce is that Ensign is now also available in the self-hosted with Bring Your Own Team. So this will be rolling out in V17 of South Posted, which should be ours a week or two. 
+
+So we're excited to bring this to even more of the customers that we work with. So this is everything that we've launched and how we think about the technology that we built. We think there's just one time, and we think about this as an open source, but also deployments, and more and more, seeing that these managed agents, my childhood, were really powerful for going to production. 
+
+We have observability, ev valves. We think a lot about how we can make this more agent data. I feel like trajectories, how you can make this more customizable with custom apps. 
+
+And how do you help you use this data to tune models to better serve your workloads? And then lastly, we have this intelligence layer that sits above, and we want to make engine do a lot of the things that Asian engineers, AI engineers, are doing now. And so the scanning of traces and the red team are just a start. 
+
+All of this, we want to build to help you guys build the main specific agents and really own your intelligence. Again, whether that is agents that you're building in front of your products or agents that you're building to transform the internal operations of your company. And so we are from a lot of speakers and panelists later today about different ways to do that, different techniques, different examples of what that looks like. 
+
+We're really excited to be doing interact in New York. We're really thankful for all of you guys to be joining us. I think we're gonna have a fantastic day, and so I'm gonna step off for a little bit, and I'd like to welcome up Jake, who will be RSE for the day. 
+
+Thank you guys all for coming.
+
+================================================================================
+RECORDING 2: LangChain + Modal
+Date: September 24, 2026
+Duration: 30 minutes, 31 seconds
+================================================================================
+
+Welcome to Introduction, New York, 2026.. We're really excited to pick things off, and I can't wait for that in front of his head. Before we get started, I've got a few great housekeeping items that I want to remind everyone of, just to make sure everyone's seeing us today. 
+
+First, today's bulletin is available on this QR code on the screen, so be sure to scan it and follow along if you haven't had a look at the agenda already. Wait for the moment. Yes, I know. 
+
+Thank you so much for all our sponsors today. Make sure to check out their demos throughout the day. And I couldn't put a quick reminder about your budges. 
+
+You can press the button on those badges to exchange contact information. After the event, you'll receive the contacts you gathered, and your badges will also light out when there are 5 minutes left in the break. Your queues are making your way back to the main stage, or the workshop. 
+
+At the end of the event, please remember to turn your clickware of the device and into one of their returning hands on the way out. Workshop for fire pre registration, so please check your email or your current calendar invite for your session information, what and your sign time. We'll have standby lines, mate. 
+
+The Wi-Fi network is lengthening to up, and surprise, surprise, the password is observability. Finally, Ferman's taking you on, but please place your backpacks under the seat, you know what I mean? and keep your eyes clear. 
+
+That's all for me. Let's keep rolling, we'll interrupt New York. Please join me and welcome me to the stage. 
+
+19 CEO, I found the house's chase, and CEO and Profounder mobile, Eric Fardassen. Thank you for being here. I'm excited to have you here. 
+
+Yeah, it's also in a beer. Uh, Mo will spend one of my favorite companies to watch. for a documentary a lot of sign out. Would you maybe, could you talk a little bit about all the things you and I think they fit together? 
+
+Yeah, so Simodal, for you who have not tried this out, we built in infrastructure about this, how I would put it. We parallel our customers on condition, that could go on to, runway. A lot of in France, a lot of training, a lot of sandboxes. 
+
+It's for the general purpose platform. We use it for pretty wide range of stuff, but we've obviously seen, you know, with all the JAI stuff, a lot of demand for particularly friends, like Atlanta, audience, and friends, but also sandbox has been kind of more recently, last fall, something has been exploded. And you guys started before ChatGPT, right? 
+
+one of the ones was 20,000. A little bit before, so we started a company early in 2021, and then I started a little bit to figure out what we're doing. It's when I actually started just a few blocks from here, but then ChatGPT came in late 2022. 
+
+Stable Lecution also came actually right after. And so, it was usually when people headed up being like, to the rap for us in the 1st year or two. Did you, did you know that, like, when you were building models, again, on 2021, year 2, 4 Japanese, did you know enough about what the AI workloads would look like, so they were building for that, or were you just building generic kind of infrastructure? 
+
+It was really easy to adapt to that as it became herald. I mean, we're the latter, actually. Like, I think one of the benefits of building an infrastructure, I mean, we were, like, very deep in need for layer. 
+
+We think a lot about style systems, and container programs, and scheduling, and that kind of stuff. And I always thought, like, one of the benefits of being out there is, like, you don't necessarily have to, you know, move, like, super fast, but every trend. You have to take a little bit more of a long-term perspective and think about the building blocks and the primitives. 
+
+We launched a server less function product in 2021. It took actually one to 2 years to see a product market fit. And then we went all the same house product, um, in 2023. 
+
+We didn't see that growing until 2025. So I always thought of like, you know, the infrastructure is like a little bit more like slightly more longer term to kind of build the right primitives, the right building blocks. And then, you know, we're obviously very lucky with all this genetic stuff that's been tremendous for us. 
+
+We were quite well positioned. Yeah, it was something we thought about, but we always thought models like AI, data, machinery, computer kinds of stuff, HBC, and then Jenny audience came and just like, you know, pulled us so hard and got to our show. Let's talk about San Marcos for a little bit. 
+
+Maybe I think he tweeted at some point that was your fastest growing product. What happened to they take off? There's a bunch of stuff. 
+
+So sandboxes, again, we've launched it actually back in 2023, and the observation back then was basically something like, it's like me and Oshad and co-fon are kind of talking on the launch one day, like, there's all these people losing elements to generate code. Well, clearly they need a place to run that quote. And we realize we actually have almost all the infrastructure to do that, like, wow. 
+
+So we launched that product. Like I mentioned, it didn't really take off until 2 years later. It started happening back in about a year ago. 
+
+So, customers started issuing doing a lot of bio footing, et cetera. So companies have long ball or many other ones. We're starting to, you know, basically like build apps, you know, from France, and they need a place to execute that code. 
+
+That was, like, the 1st use case. After that, a lot of people started using over background engines. So we have some customers that ramp, they want the ramp, inspect on a little, which is basically their own internal background agent for coding. 
+
+And then the 3rd major use case has actually been pretty large for us to be reinforcement learning. Not like a massive amount of customers, but the customers that use us from is at like a surf scale. So we're talking about some, you know, newlings of sound offices, call center rollouts, um, and a lot of the reinforcement learning models, especially for coding, they need to wait to execute that. 
+
+We live in the power of reinforcement learning for net. And when you think about these 3 different use cases, the code agent, the background, enforcement, right? Are the sandbox apprentice the same across all of them, or are there differences in terms of what's fairly similar? 
+
+I mean, I've, I've quarter, like, you need a programmatic way to, like, you know, create a container from an image, run COVID, interact with it from the outside without, you know, obviously the agents of escaping the sandbox. I've seen some news about that. So the interface is like pretty simple. 
+
+There's some more advanced stuff. Like, there's some cool stuff on, like, snapshot, sandboxes, code, cloning, sandboxes, or work and stuff like that. But I think to me, the differentiation in the space is primarily been around, dude, can you do that? 
+
+Very more scale, can you do that, the good performance? Can you do that reliably? We're like infra geeks. 
+
+So for us, like, those are just things that, like, very good at. And I think that explains why, the same loss space. We seem really strong adoption and very solid. 
+
+I don't know, more of a share number, but I imagine we're by far to think it's better in Seattle space. I think that's been more instead of the differentiation. And from the outside, it's like, going back to your point, it's fairly similar. 
+
+And that's why I think Sam Ross is a thing is like a nice, fundamental building blocks block for providing examination. Yeah, I fear, but it seemed like pretty similar to a lot of stuff you guys were doing before that, in terms of just like spinning things out really quickly. Like, how much, like, sandbox specific stuff did you have to build on top of the up high? 
+
+Not a whole lot to release the 1st version. Watch out our CTO co-founder. He booked the 1st version of the sound boxes in like 2 days. 
+
+And it would kind of, like, put it out there, and not a lot happened for two years. But mostly started seeing some growth. Like, we had to re architect some of the internal systems, just to handle, like, very, very large rollouts and scale. 
+
+So we've got to rebuild some of that, like, a 40 infrastructure. But I'll be fine, the financial stuff. Like I mentioned, those are fossils for business. 
+
+Like, that fossil system, ourselves, is very good for very fast loading of your coal starts with containers. We would have to go on to look at running the full virtual machines, more expensive various sounds, specific thing. We've been previously using all technology boxes, we're switching a lot to virtual machines right now. 
+
+Why? Your husband? It's primarily because sub customers want their own, like, more full operating systems. 
+
+So do you watch acts of limitations? But with, in particular, not my docker, but but also, I mean, with the full VNA, you can do stuff like messing around with, I don't know, firewall rules or whatever. Like, you can do anything inside the sandwiches, really. 
+
+Plus, a little bit of performance, uh, improvement. So you're also looking at actually like running like windows, sandboxes, stuff like that. Maybe you have to, like, do some music out there. 
+
+Shit. One perception I had is to start was that there, maybe like different types of sandboxes. There was ones that were, like, really, you'd be sent, like, maybe really quick to stand out that weren't super stateful. 
+
+So you said, like, simple kind of, like, you know, code, you model, die, mate. And then I feel like staple ones for while trying to do this. Is that like a true distinction? 
+
+Are they actually the same? I mean, think about that and what you guys want to name that? I think that's definitely right. 
+
+I will say, though, like, we've seen a lot of people wanting long-lived, uh, sort of skillful sandboxes. My view, this is a little bit of hot take, is that a lot of that just looks like kind of core architectural choices from like the harnesses. Like we have this like kind of dominant architecture where like the harness often runs like with the code itself inside the cinema. 
+
+And so naturally people want to run that for like 24 hours inside a sandbox. I think the future of the Asian artists is actually a decompling, where like you have a harness that's running for a very long time, but the sandboxes are almost ephemeral, maybe one for every tool calling them. I do think our eating front box life cycle is something like 12 seconds. 
+
+We have a very long tail, those last 24 hours and stuff like that. But yeah, I'm more of a, you know, long term, I think a lot of samples will generally be very short-lived. I feel like this, like, anthropic work there long, but separating kind of like the hands from the brain. 
+
+And at the scene, like before that, when I was talking to people, we were building agents, like, there's made 50-50, whether they'd run it in the sandbox or do it in stuff, right? Now I feel like it's maybe like 75 or 80 or running it outside and connecting. Is that like the trend you're seen as well? 
+
+It sounds like you think that's where it should go. I think that's where she do, because then you can do some really cool stuff. Like, you kind of harness just, like, spin off, like, multiple subs and, like, clothing things, like, explore kind of whole ranch, like, bringing back, like, and, you know, and snapshot things and kind of resume, like, restore things. 
+
+So I think that's ultimately like where it kind of has to go so architectially. It's harder to build these things, and I think, you know, I mean, it's like crazy, but, like, you know, soft engineering has like changed, that's so fundamentally. I mean, I think you write a lot, but still, right? 
+
+Like, I try to ride a couple, a lot of people still. It's, like, so different in the last 6 months, 12 months. So my view is like, AI and Sierra, it's like changed a lot of the types of software we can build, but it's obviously also changed like Hollywood software. 
+
+I kind of feel like a lot of the infrastructure and the tooling is still, you know, not quite, you know, that's like caught off with all of that. So I think we're gonna see a lot of churn and like architectures and infrastructure. I mean, like, I think a lot about that works, right? 
+
+infrastructure probably. But I also think about the agents and the harnesses, and, you know, New York is, like, you know, there's just gonna be so many changes in like fall months, 24 months. Like, it's like with the mobile game, you have to come up with an objective scene, and then the internet came and come up with Cubernet, all these things. 
+
+Like, I think it's the same thing with all these aging stuff. Like, we may not have to come up with completely new infrastructure, completely new frameworks and all this stuff. I'm very excited about that. 
+
+Maybe one last question on sandbox is, there's this idea of kind of like, like lightweight pseudo sandboxes, like gigantic monte or just bash from Verselle, quick JS where they're like a subset of the runtime where a lot of times you don't need a full sandbox. It kind of mocks it out. Do you have any thoughts on that or usefulness or places for that? 
+
+I mean, maybe, like, I think they can be useful for some stuff. Like, I'm not, my general feeling is, like, a lot of agents, like, today, like, they like to have, like, a fat, like, limits box. Like, if anything, if we've seen the pull in the opposite direction, we're moving from GI, sir, which is like, has, like, most of the surface areas are limits to, but we're moving away from it to virtual machines, because there's, like, certain things that don't quite work with GI, sir. 
+
+And too much is that way more, you know, full feature than a lot of these, like, you know, if you go to, like, Wassem or V8, oscillates or some stuff you mentioned. I don't know, like, I think there's certain use cases. When you want to run, like, an insane amount of, like, maybe they're good for, like, you know, you take a small job scare, you take it for a customer, you run it, like, a 1000000 times. 
+
+I think something that lasts on her VA oscillates or something like that, it makes sense. But I think for the general case, like, it's like, you kind of walk inside of being fed out with DMs. Does that also help with like computer use and things like that? 
+
+Like, you forgot that or any force for me? Totally. Yeah, I don't think we're seeing it quite yet, but, like, ones that, since thought, I'm very excited about is in general, the big lapse of, obviously, you know, seeing tremendous success, you know, with coding walls, because coding is, like, quite verifiable. 
+
+You can do the rollouts, you know, you can run things and then see, and do post training very efficiently on, on cooking some options. I think, you know, as we're moving into, like, and you may have whatever thesis, you want to contest, but, like, automating white color work, more wrongly. Like, we're probably going to see a lot of people doing rollouts and, like, you know, just the Mac sound boxes. 
+
+Because, you know, if you want to automate, like, computers for browsers, that matter. Like, you kind of need to train agents that kind of, like, click around in Excel, an outlook, and slack new teams, and zoom in, even, I don't know, like, so, I'm kind of excited about that too over the next few years. I'm sure we're going to see all of them for those things. 
+
+Maybe taking that and going to kind of like insurance. Did you guys also play there? Yeah, how is your strategy for inference involved over time? 
+
+Yeah, I mean, we support all the eloquent source models pretty easy to deploy those responses in the world. We also launched a couple of features around making an Easter. So we have, I think, a lot of endpoints, we should basically, like, point of like, one plate deploying, a single kind of, you know, communicates videos and things like that. 
+
+We also shared animals now, which is like more of a resource efficient because they're shared across a lot of these, which is kind of off the shelf, case models, et cetera. Um, so we see a song in there. I think I think the sort of the conversation has shifted a lot in the last 12 months. 
+
+I would say like a year ago, opens or malls were just not known. They're nowhere near the frontier models, right? And so the article is more like, you can save a lot of money. 
+
+Like, you can find tune, like, and you could find tune or postering, they're almost as good as, you know, on specific use cases. They're almost as good as the materials. Now the, like, you know, at least in the last 3 months, those smalls have been like basically as good as the frontier mall. 
+
+Well, now, you know, open an eye and talking to small, small, new models. So, like, now. I think they pull ahead again, but, you know, but I think what's shifted the conversation a little bit has been, you actually don't need as much post training, maybe. 
+
+So, like, we still see a lot of people close training, but I think also a lot of people just very happy to just, like, swap out, you know, anthropic for, for, you know, communicate 3 year or deep seat 4 by one or something like that. and save basically 2 thirds of the token cost and the model is like basically as good. How much of the inference going through you guys? Do you think is on, like, these custom fine-tuned post-trained models, which is just off the shelf in the K3, if you have the issues, I guess. 
+
+I actually don't know. I would assume it's 50-50 as well. But it's like, you know, 50-50 by volume. 
+
+It's probably like by like number of customers. I sure it's like 95% of customers just use off the shelf. It was source models. 
+
+And then you have a 5% of custom. You always have this like skew, same with like reinforcement learning. It's like a very small amount of customers to drive the same amount of usage. 
+
+Most customers do not be able to do constraints, stuff like that. How do you think about that whole 5% versus, you know, as like a founder and product leader? Like, are you building for the 5%? 
+
+You want to do the long tail? We refer about like building for sophisticated customers. Like we've always considered models of, you know, a high code tool. 
+
+Like, we love engineers. We never try to like... We always wanted, like, model to be, you know, as powerful, if not more powerful than the existing tools. 
+
+You know, while getting rid of all the junk that previously sort of challenged people, you know, working with the cloud, I think so to us, like the core, our core users, our machine learning engineers, like researchers, like people building very sophisticated. infrastructure or applications, I should say. We also have a long tailor of like hobbyists, early stage startups, but I think it's important. Like, we love most of the power users that people building for sophisticated stuff. 
+
+Yeah, and you guys have a great kind of like onboarding and very user friendly possible as well. So I think that actually feels in the lockdown as well. For a couple of like post-training, like supervised by tourney versus RL, like, what are you seeing people doing now? 
+
+Has that changed over time? We definitely, by number of users, again, we see, like, way more just supervised line tuning as a team, then they're new enforcement learning. But they're very large customers, like they're very complex customers. 
+
+In person learning is a mess, though. Like, it's like, you can get like better results than SFT, but it comes at a very high cost today. It's very sort of use case specific. 
+
+You have to think about the rollouts, you have to think about, I mean, the infrastructure itself is very tricky. You have to think about the evils, like the judges, it's very complex. So I don't think I would suggest to anyone to do RL unless you really want to squeeze out those, like, you know, X percent of extra accuracy. 
+
+But for some of our customers, like that's worth it, right? Like, you have customers, you know, like, like, cognition, for instance, like, they run, like, very large coding models. And for them, like, reinforcement parties is very much, you know, the right thing to do. 
+
+I think pretty average customer of contenting is enough, or just running, pregnant, like off the shelf models and just having better problems. For, like, inference, do you guys have gone from kind of, like, really low level primitives to auto endpoints? And now it sounds like you're sharing that points, which I'm just wondering about now. 
+
+Like, how do you think about, like, I'd say that was, like, going up the staff a little bit. A little bit, yeah. Yeah, how do you think about that? 
+
+How are you making a decision? Yeah, I mean, we spent the 1st three, 4 years of the company building, like very foundational stuff, like computer round time, file systems, like stuff like that. Um, I think over time, like we're always going to go off the stack to some extent, and when we see opportunities, and we see all the demand for things, like we are in the front area very clearly, but but I think, you know, with the inference, you know, for a long time, like people would come to us and deploy how long inference themselves. 
+
+And these were relatively sophisticated customers, and they wanted to deploy things like be allowed to arrest your lab, and we would help them with that. But, I would say, like, it's pretty hard to, like, tweak the performance of SULI. There's so many parameters and things like that. 
+
+So I think it made a lot of sense for us to build sharing at once and on end points and they make that possibility easier. We're spending a lot of time instead of on basing self-optimizing performance. And the idea is like if you spit up an endpoint immortal, I was in these other sort of models. 
+
+The performance gets better automatically over time. So we use those monitor the system and train, you know, draft models and tweak, you know, the back sizes and all these things. There's so many different parameters. 
+
+So some of that stuff, I think, makes a lot of sense to turn into product and application and sell that to a lot of customers. Do you think he'll do that for her 5 tuning or RL? We talk about how complicated it is and how it's hard to do RL right? 
+
+Is that think so? make easier? I think so. 
+
+I think the dream is over time. Like, you want to turn these things into, like, how are you still watching the frogs? I would say with fine tuning. 
+
+You see that a little bit. I think Tinker, by thinking machines, is an example of the product is actually pretty exciting. They've actually been able to package it. 
+
+It's relatively complex to use still, but it does take away a lot of the interest of challenges doing us at the. I would love to figure out if that looks up for reinforcement learning. Because a lot of it is obviously thinking about this. 
+
+Today, like, the course of 30 is quite very intensive. Like, it's very service heavy. But the dream is like, can you package it up into like, you know? 
+
+Here's the thing, you know, he's far out in a box. I would love to figure that out. I don't think we were fucking there. 
+
+Continue learning is like, I don't think it'll be even better to do. Maybe given it here, like, I'm sure there's going to be something in the market. We're thinking a lot about it. 
+
+You mentioned that early on, you pull a lot of these foundational things that you're now packaging up a little more. Are there like current foundational things that you guys are working on? We're going on training products. 
+
+I'm pretty excited about that. So, you've always been able to train a model on single note, but, uh, we're we're building a product for multi engineering. So basically the idea is that you can spin out like sort of serverless cluster of, you know, 48, 60 nose, so like, you know, 128 GDs or something like that. 
+
+Fully interconnected with RDMA. So that's a product. We have a number of design products. 
+
+We're very excited. We're gonna watch Apple today in the next few weeks, actually. We're on a bash product. 
+
+So the idea is like we have often, you know, periods of access capacity. We also have customers who have things that are very latently insensitive. Maybe, you know, we got a customer the other day, that was, they were transcribing 5000 years of audio. 
+
+So they have like 1000000s of 1000000s of audio files. And then just wanted to transcribe all those audio files. it's like one of those things, you've got to just chuck through that, like, very long list of audio costs. You can sort of do that during periods of, you know, like it takes like more. it took like a couple weeks. 
+
+So we're launching a product where you can queue up sort of background jobs, what kind of like go through that queue. And, um, we'll give users a big discount. So up to 50% discount for backgrounds. 
+
+That's gonna be sad. And I want to finish by maybe talking about the total company of it. You're billing in front of a company. 
+
+We have a lot of some startup founders here as well. Maybe a few questions there, starting with, like, you come from an infra background. I think you describe model as kind of like an infrastructure company that is or when you started. 
+
+As you move like up the stab, you start to do things that are made, like you mentioned, are out very services having it. The people doing those services are probably different than infrastructure, folks. Is that changing kind of like the DNA or the company? 
+
+Are you guys involving in some way there? Yeah, it is interesting. We both have like a very large TVFT scored blood engineers. 
+
+I think we have like 3 at the beginning of this year and I only have 25. And, you know, and the truth is, like, building AI applications is pretty hard. Like, so, you know, we think it's very important to build up a, you know, team of, you know, really solid engineers that can work in more, you know, customer engaged, like basically sit with customers and help them build a model or like build political things and optimize things. 
+
+So, see, you can, like, don't talk about that, because I think FD is like the hottest job thing. Like what does it mean at little beFT? Yeah, and by the way, I think, yeah, I think I think it was Palinter that came out originally with the name of it. 
+
+And there's an argument that, like, maybe everyone is, like, kind of not doing it the way Palinter do it. Because bacteria is like you would fly someone to Brazil for like 3 months. We don't watch that. 
+
+But, you know, we have people go to, like, a customer stick with them for a few days at a time, maybe. And so it's about fixing bogs, like helping them optimize malls, like, sometimes having to build things or having to architect things. Um, you know, helping them look at their code and see if you can structure it more efficiently. 
+
+I mean, we're actually a new world of, you know, building applications in a fundamentally different way. I think in the long run, all software will to some extent be AI needed. Like we won't talk about it. like software that's like internet native, like for, you know, it's kind of, you know, you don't talk about that way. 
+
+Like, I think it's sort of as, like, all software will become, you know, AI native in a certain way. So you need people to help customers with that. I'm sure you experience the same thing. 
+
+We have, you have, and 30, 40, probably more than that, we're taking point engineering, too. Yeah. What, you mentioned kind of like coding and how that's changing. 
+
+Like, how do you think that's changed for you, but also as a company? Like, how do you try to make your own company more AI nators in terms of what you can talk about? I mean, pretty much every engineer is modal uses AI all the time, including myself, through writing, but it's obviously thinking changing, writing code. 
+
+I mean, is it like a tax change? I don't know, but, you know, it's like a 2X 3 exchange. It's kind of what I feel. 
+
+Like, I use it a lot myself, because, you know, it's like an intern, you consider delegate the morning classes, too. Sometimes you can only get very complex tasks too. Interestingly, you've actually seen that the more experience, the older engineers, like are actually using it more. 
+
+Because I kind of feel like they're actually like, maybe maybe it's like kind of like thinking about as interns. Like if you're like a new engineer, maybe it's like harder to delegate things. Whereas like if you have like 20 years of experience and suddenly someone gives you 20 interns, you can like, yeah, you do that, you do that. 
+
+So we've seen, like, some of our, like, you know, more experienced people who, like, use, use agents, like, you know, like, crazy. like, you know, writing 100s of 1000s of lines overnight for some prototype or something. A system people will see. And what is what is the harness for doing that look like? 
+
+Are you guys using cloud agents a bunch? You have some like in-house harness that people are running locally? Like how? 
+
+No, we, I mean, we use, we let people pick and choose. An issue is all cursor, not movies, since then, and clawed and Kodaks, and some people are playing around with open source things, like night shift, and people, with all the open code and all those things. We don't mandate anything. 
+
+I think our view is that this basically makes so fast, we kind of want people to, we want a little bit of like internal competition. We thought about building our own harness internally, just as more like a kind of doll fooding, because we think long-term models, a great platform for hosting harnesses. So we thought about maybe we should build an harvest to learn, but it feels like the loose horn is a model. 
+
+We'll see. Do dog food some of like the inference stuff as well? Have you guys train a model of your own? 
+
+Uh, no, we probably should. It's a good idea. Yeah, you know. and off other things. 
+
+But actually, a lot of people use our own kiwi and K3 diplomas for, like, claw and everything. Okay, awesome. How are you seeing kind of like AI transform other areas of businesses size software engineering? 
+
+Talk about Coby and Buffer. You see the same in sales, you go to market, or people or in other countries you guys have? I think so. 
+
+I mean, I've used ChatGPT claw pretty efficiently. Like, we have internal MCT servers that hook up to our CRM and our, you know, revenue data and all these things. And it's kind of cool. 
+
+You can go into like, the other day I was like, I was going to London for a few days. I was like kind of trying it out. Like, ask Claude, like, what are some customers that should reach out to? 
+
+And it's like scandal to see around and everything. like, here's like a list of the customers. So, you know, and I know the sales thing does a lot of that. So I'm sure you see the same thing. 
+
+There's some really cool stuff in I think in going to market that you can do using these agents. I don't know about that, like HR and legal. I mean, I feel like they're living behind, but, you know, I'm actually not sure we get there too. 
+
+Maybe last question I have for you, you have an incredible time, like, view into the industry, then, like, what is something that, like, you're most excited about that you think is really not kind of, like, take off? Like, kind of a commando thing. I was been very foolish on is like voice models. 
+
+Like, I feel like they're, like, not quite there yet, but, like, once you can really talk to computer, being talk to human, my feeling is, like, that's gonna be a game changer for, like, how we all interact with computer systems. Not maybe for everything, but um, yeah, but I feel like, so like, in terms of like what that means for infrastructure, we're very excited about like low latency inference for that reason, like streaming media and audio videos. So that's like one thing that I'm very sure. 
+
+And then does we have like voice, voice, and they have multimodal style? Rosen was, right? Like, and it's like, when you talk to the computers, it was, what's today? 
+
+Like, it still doesn't have the same fidelity, the latency. It doesn't feel like a human. It's like very uncanny. 
+
+But, like, I've given it, like, 6 months, given 12 months, and Whispers were, like... I have a feeling like the models would be very good. All right? 
+
+Okay, and I have to have. Well, thank you very for joining us. Thanks for all missing. 
+
+Thank you.
+
+================================================================================
+RECORDING 3: Morgan Stanley
+Date: September 24, 2026
+Duration: 19 minutes, 23 seconds
+================================================================================
+
+Hey, come and snacky, the vet, I'll go off, and Kunov, Fazakati, from Morgantown. Thank you, of course. Okay, recording everybody. 
+
+So welcome to the presentation. I'm very happy to come here and present about the deep pages that we did, and what is Stanley. So the idea before we get into the deep agents, I want to basically thank Harrison for introducing what the agents are in the center audience. 
+
+So we would have to really dwell on what they are. So I'll start with the basic idea of at a large enterprise, like golden. What are the big challenges that you face and how do you address it? 
+
+So one of the main things is every few people group, let's say 5 people, 10 people, they do their own AI, one implementation, and some of this succeed, some of them not so. And same, same kind of problem is solved in equities in one division and equities in another division. that's not uncommon in a very large enterprise. So what we noticed is that there's a lot of common failures, but each group solves them separately. 
+
+In other words, failures become amplified, and if there's a common success, it is difficult to also bring the commonness and reuse because your success for equity is product here in taxes, for their equity is product is slightly different. You can't quite immediately reuse, which is going to maintain the code. These are real practical problems. 
+
+So what we go over the period of time is we came up with this dension AI, which is a platform used at the for white, and you can look it up on the internet and it is very well received with a variety of awards will get into that in a 2nd. What it does is it has its own compute and it has a common, agentic framework that we use, uh, like, train, like, my colleagues will go through more details. and build a platform on top of it, and we use that to actually test some of these solutions and incubate there with such a period of time to test it against real enterprise sources. And then finally, deploy them into production. 
+
+So that's the main approach that we took from within the engine AI, and with that we were able to successfully deploy several many production code bases and also many products. So we'll go through that example. But the most important thing is we actually proved that we get about a 1000000 plus hours saved in productivity over the last one plus or 2 years. 
+
+And it is deployed over the entire company. So 30,000 users are using it, and the open source aspect of this process really helped us because this helped us to amortize the cost of all the failures, with various groups, and instead we actually amplify the success because it is built by people who actually need the application. So that's the main aspect. 
+
+So there's no reason for any friction. If there is a solution built, and if you like to change it, you can change it at the same place. And it is healthy within the PRs are commonly accepted. 
+
+So that's the most important human aspect of this system. And along with it, we have phenomenal success, just a couple of weeks ago I was there at CAO 100 receiving the awards on behalf of Morgan Stanley. We received about 8 or 9 patents in the last 2.5 years on the Gen AI, and more than 15 people received their 1st 10 patents, and several backing awards won their last year's banking award as well. 
+
+So it's a very successful system and my teammates will give you a bit more detail. In particular, if you're interested in deep agents, pay attention to the depth to which we count. Plants come first, lead with exceptional idea. 
+
+They don't think it is. So for us, the challenge, the enterprise challenge, is not about just building an Egypt. But how do we scale? 
+
+How do we do it in a secure manner and in efficient manners? So we can accelerate business outcomes. The solution is take the lowest amount of denominators. 
+
+The important, but many times the boring parts, like infrastructure, governance, ordered, observation, but they are very critical for scaling and efficiently. And then create shared capability over them so that the individual teams, especially for a company like us, 16,000 developers, just in the rig one, but in the rig, 2 or rig, 3 that are, isn't showed much food, they can focus on their business problems, right? So that's the DGN Ecosis to Kamar was talking about. 
+
+And as we go through the presentation, we will go deeper and deeper into what that is the ecosystem, but also how we integrated deep agent into it. So example, in the ecosystem, when these teams come to build, their idea to a working agent, the ecosystem provides a lot of AI assisted orthoring to them, and a portfolio which is always growing by the day, for all the 3 ranks that harsh and shore on his presentation. Run time, how do we provide a consistent execution layer that connects to approved models that has common gateways that connects to tools which is open by FCP and A2A, connects to data, data is still looking, connects to enterprise data to create the context for the agents, right? 
+
+You all know, engines need memory, agencies, execution points, resiliency. We have a shared stack that can scale for them. Governance, I think one of the most critical things, especially for regulated industry like us, cannot be an afterthought of bolted over a solution. 
+
+It has to be built in pre-execution, during execution, post execution. Of course, like identity, versioning, approvals, HITR, regional policy has to be part of the shared ecosystem, which it is, and you will see more in detail. The executions create influences, the ecosystem allows us to understand the evidences, learn from it and improve our agents. 
+
+None of this is unique, so to speak, but what we'll be sharing is how we have built that ecosystem. that has worked for us and is getting the best result, which to ask Pokemon. So what we're discussing today is that footprint that's worked for us. Next, let's deep dive into how we integrated the deep agents into your system. 
+
+Thank you, Vivek. This is the Enterprise ecosystem that we build around peak agent framework in engineering eyes. I know it's a longer taken. 
+
+But over the next few slides, we will be reviewing this map more capability at the time. Let's look at the 3 large main groupings here. In blue, we have the Dutin AI Enterprise capabilities and integrations which enable agent building and operations. 
+
+In Amur, we have the land graph and deep-paging framework, mechanisms and extensions. W AI provides an enterprise implementation. And in green, we have Eva and the learning brain. evaluation evidence helps improve agents and patients. 
+
+What I would like to emphasize here is the breadth of the area system. This is largely been made possible by various contributions made by through our inner source markets. Now let's see how teams build agents in the sequences. 
+
+It all starts with the ARI Assisted Ordering Agent. The ordering assistant helps convert business requirements into agent technicians. In fact, the sovereign assistant is itself is a deep agent. 
+
+It has the power and capabilities. It has access to our agent and tool registries, which help us discover reasable functionalities. It has opendrop to my capabilities, which helps determine suitable models for a given task. 
+
+It also has knowledge of prompting best practices, which helps us create well constructive prompts for given age interfaces. Once, all of this combined together to create an agent definition in the declarative Yama format. This is the building block of all agents that is built in our ecosystems. 
+
+The declarator to Yamo format provides easy maintenance. It can be version and it is also portable. Once agents are deployed to a platform, it's made available for teams and individual users to be able to use them to solve business problems. 
+
+Sharing the execution and this also mean that they can work together and collaborate, learning from each other and also building shared solutions. Now let's see how the agents that are built, run in an enterprising system. Users are removed to choose between multiple interfaces to run their agents, whether it be a UI, API, CLI, or coding assistance. 
+
+They are all interchangeable. They could even start on a single interface and resume with that. The results are streamed back to their chosen interface. 
+
+When a request reaches the ecosystems, the execution is handled by the pagent runback, SEC and Amber. Planning helps split large work into multi stars so that it's easily, but it's really attract. Context management helps manage the information available to normal. 
+
+Of course, we support various tronics, compact activities. Servantes provide a means for the main agent to run bounded tasks, within some agents can have their own tools and context can also return themselves back to the main agent. And of course, tools provide means for agents to provide action. 
+
+The connectivity layer right below gives all the agents in our ecosystem govern connections to our internal systems. Approved models are provided by the space, AI gateway, and connectivity to other internal applications comes out of the box. And it supports all interfaces, like the rest, or directly be for anything else. 
+
+And of course, we also have access to all the MCP and A2A registry, which helps the agents communicate with all the other tools and agents. Now, what happens when an agent runs and it gets get instructed? How do you assume from that? 
+
+It's pretty nice. So let's talk about the persistence there. Deep agents, persistence layout, provides agents with ability to run for a long time and improve the resiliency. 
+
+Langra provides enterprises, the engineer provides intermination. Checkpoint or feature helps save execution states so their tasks can be resumed later. Backend extensions in terms provides memory and artifact workspace. 
+
+Shorter memory helps agent retain information in different projects, long-term memory helps it treated information across tasks or even across conversations. Artifact workspace. stores the outputs generated by agents during its execution term. It can also be used as a store for the inputs that an engine need. 
+
+The backing interface provides unified interface to the agents to access these extinctions, respective of what the underlying implementations. We actually even built a custom S3 back in for working with our enterprise applications. Now, it's important when agents run. 
+
+How does governance work? These incidents have proved that it is not only enough to ensure that agents completes this task. It is equally important to ensure that they stay within their authorized bodies. 
+
+The DAI governs access, releases, and drive time control. First, let's look at access control. Broadways, access controls, who was able to create an agent who was able to improve an agent and was able to run an agent. 
+
+Release, again, release control. Agent definitions, some versions, and they go through a review process, requiring the necessary hours. Once it is approved, they are made available for users to access. 
+
+Third, run time control. Deep agents, middleware, provides hooks which can be moved for fine variant controls of agent execution. The MGI extends these middleware hooks to implement enterprise control and governance policy. 
+
+This controls agent execution, it could even stop an agent from running, or it could trigger a human approval for integrity. Another layer of governance is through our FOMI gateway, which provides the approved orders. Every execution provides evidence. 
+
+It provides evidence on what works or what does not work. This is where ER comes. This evidence can be used to include agent definitions. 
+
+Tracing provides tracing analysis provides agent interactions and outcomes. This provides details into recurring failures or areas of improvement. This information is then fed back to the AI Assisted, ordering agent, which uses this information to produce a new candidate agent version. 
+
+This is an evaluated. The new candidate worship is evaluated for quality, safety, and task success. Once it is, once it is approved, it is deployed and new execution produces new products. 
+
+So thus it completes the execution evidence informs learning, learning guides, ordering, ordering reducers, evaluation, evaluation leads to approval, new deployment, and execution. Like the of an agent doesn't just complete after it is executed. I would just now, um, handed back to Vivek's, uh, tasted. 
+
+Ecosystem is good. is good. But ultimately, the values created, but we apply to solutions towards business outcomes, especially for those who have your broken accounts and advisory accounts, you would appreciate that, that the infrastructure at the backet should make it cheaper, faster, more secure. So we go through some selecting solutions which have been created through this, which shows you how some of those AI, you know, ideas became transformed into vegetable outcomes. 
+
+In internal ops, uh, we pay the command review of a diplomatic risk school, which is very complex. We made a conversation. That added 600% initial capacity in the team. 
+
+That failure, which is a match, AI content, as an intelligent player. Oh, this story too? And actually the lighting story. 
+
+Guess what? The means time of resolution, they've used for 50% within a few months. Also give the capability now to hire an airline who is not of 50 years as a week, but maybe one or 3 years we've experienced personal can come in. 
+
+So it allows them to scale. Who wants? They can, BIs are going to come to complex paragraphs. 
+
+They can talk to their charts, they can ask, explain to me, map PLM drivers. They can look at various complex data and models to natural diamonds. We applied to landscape modernization, 16000000 lines of food has been modernized already. 
+
+So in toarity, then, this ecosists too. helps us create a reputable path from IG to that. It helps keep in a way and get their ideal experimentation to become enterprise capability towards time to go to the sound. I have said that, last 20 minutes of the line, you'll never get back. 
+
+So we truly appreciate you sharing that. Thank you to Morgan Stanley for their session.
+
+================================================================================
+RECORDING 4: JP Morgan Chase
+Date: September 24, 2026
+Duration: 19 minutes, 1 second
+================================================================================
+
+Good morning. It's great to be back. So, last year, Jade and I were on the stage in San Francisco, and we showed you how we built one agent with ask David. 
+
+And that one agent, that one, took us months to build. This year, well, this year back with the fleet of agents. And that one, Egypt, the one we built last year, took this month, now takes us minutes. 
+
+So for months to minutes, from one agent to the fleet of agents, that's what changed in last year. And we're here today to show you exactly how. Now, I'm sure many of us have watched a great AI idea just died. 
+
+And not because it was a bad idea, because it took so long to build that by the time it was ready to shift, the moment had passed. And if you work at a financial institution, you know exactly why that happens. Because we don't get to build like everyone else. 
+
+We can't just grab whatever tools you need that we can use it. We should take our data and send it outside our walls. We build on an hour infrastructure. 
+
+Our systems. We need our standards. And that's a world we build ours for. 
+
+What many people might see as a constraint, we saw an opportunity. We saw our reasons to build it a separate one. I mean, think about it. 
+
+Do you really want to read about the wheel? Every cocktail idea? We already have this. 
+
+We have data, we have our standards. All that hard work is ready, I'm done. But the one thing that's method is taking all those pieces, putting them together, and turning into AI real AI and pass. 
+
+So as a group, we got together, we asked ourselves, well, what if building agents was less like custom software? It's more like a market seller. And that's sharpness. 
+
+Not an agent, single agent, but an Asian building a sound like rapid up 3 principles. What is B? Taking the idea of concept to production in days, not months. 
+
+Two, standardization, ensuring that we have one time framework, one body high bar for each and every agent, and three evaluations and governance. Ensuring that we incorporate guards at the beginning of the process, and not just wrapping it out at the end. Jarvis doesn't really invent the foundation for Irish agents. 
+
+We build a line of watts so that every agent that rolls off of that line rolls off a bit faster than the previous one. And to build that line takes a key, it takes a 3 of us. It takes me on five, takes Shane on data size, and Tony on engineering. 
+
+Three roles, one aside. So let me hand it over down and let them show you exactly how this works. And sometimes we will do that, consider when we will see them, we are all even on my cycle. 
+
+At DLC, ADRC, PDRC, software dealers, and cycle, and production, he got a cycle of law. And how are we going to make that clip? Whereas the nation, we find to redeal that, from month to month. 
+
+It would build set of skills, be hard assembly, not. Take advantage of the AI coding tools with cover skills. Important thing, like starting with the details, with skills, we put that same game, the FDK, the A. Then we're going to secret feature. 
+
+In the enterprise, an important thing, we have not my engineers, right? We need to get the agent, FDK, income, and project market, secret all the further. Then we're going to have a heart. 
+
+The heart is better to one. We get out of bath heart. is not enough. We're going to put our end prior additional RS being there, you know, what really the man we want to use is non-shock barrier, what kind of feel you want to have. 
+
+And also different kind of interagent communication because any price, in many, many ages, not of yours, you will have a different way to communicate with other systems. And 3010 bucks at all. Then going to the typical software engineering development cycle. 
+
+CIC implantation has that saw the production lifestyle support, how you need to provide support from opportunity, from product on a team, before the clown and evaluate the government always important. So they didn't have said it not. And for the effeminine, the policy, not only about efficiency, the idea behind it, if we want to make things composed. 
+
+What I mean here, all the fields are not the facts can be replaced. For you now, if you want to use a deep, different deep agent style, fine, just replay your skill. We want you from the private car to popping car. 
+
+It's okay, we place another scale. Then we will have different evaluation and a different kind of supporting team, different that Japanese UI protocol. They play skills. 
+
+Then from Yosemite 9, you can marvel different variations about a feminine, building agents, your private car, public car, different staff, different computational protocols, copy to different agents. Another thing, for the composable volcan idea, not only about a family mind, the thing is, you also can do things like, you know, how are you going to compose your age to integrate together with your existing anti-system? A fair mention, we have built a lot of common models, but for the magnetic system and so on for so many years. 
+
+What the way you want to increase with that? The market is your wife, embedded, direct control, standard law, all different ways, different applications, have different process, different user groups. So you want to make things very flatful, by the way, it's important, a challenge, needs to be flatful, automatic, provided by agent. 
+
+And those kinds of capability is very important, especially the very fast moving AI type. Right? The other thing is, those compo idea also about how you're going to team up your age. 
+
+We know what age, the only one say, once you combine Marco is pedado, can do a lot more safe and generally innovations. And Asian composing, not only status, can often deny, you can put together, with some all constricted skills, in real time, makes it composed. And surname, even the AI world, your UI, is also composed. 
+
+We know of the journals in the UI, different protocols for AGUI, A to UI. You're using that to make your UI composable from instant ages can be presented. So that's a true idea behind a 79 to make it work. 
+
+Once we have seen composable, we have not, because it's so dynamic, and how to monitor, how to debuggy becomes a big problem, how to improve that, become big problem. So then go to the next one, regarding how we consider the skill developed lifecycle. Well, we know that when we used to deep page, the critic advantage of skills, right? 
+
+That's the business field, engineering skills, that's all. And to handle that, basically, we 1st need to have a good marketing system and evaluation to find out what's going on about our ages. Then another thing is, when you give agent, by the way, the importance about this assignment value, we build agent totally independent from each other. 
+
+It's different from hostages. Right? When you have an athlete here, with your agent, your age at the beginning, it's just a newborn day for the feet. 
+
+It may only do 20%, 30% of the benefit can have and to grow up. It's going to be from a newborn bay final, going to be partner to the me. To do that, you're going to have the starting fields going to shorten marathon from memory and then going to the evamination. 
+
+And have system help you to evaluate what can be improved. They improve not only about skills, also about how you want to handle things. For example, whether you want to skills, or what you want to craft, or you want to cook, you want a tooth. 
+
+Those kind of different levels with different flexibility and a different acres and a little music. Those is a big engineering trade-off when you're trying to have cycle, to help the sleep, to improve the ages, and to make it finally, being your partner, not that you want A, to enter prompt. And another way, all of that information, I think, being very important, we do have a change in history before. 
+
+Right? So, uh, for more government, I would hand out data size, Jim. Thanks, honey. 
+
+With Jarvis, what you were really faster than ever. A new skill, a new capability, a fleet of agent can be deployed overnight. The speech is the activity, and the speed is a risk. 
+
+So how many do you trust? And how do we maintain our trust? We will down 2 piece plates all here, offline, and amnaivas. 
+
+All my emails starts with the intention of our agent. We just ask 2 questions. What aging you should be doing? 
+
+And what should land? With that, that would be translated to 2 different type of test cases. The positive one shows what good look like. 
+
+And 91 shows the boundary that he should now cross. Let's take the example of a investment analytics agent. So when a user is asking how the performance of my portfolio, the parliament case without would be the agent trying to pull the corresponding, and it is tools, generate results, and then show it, yeah, very easy to understand format. 
+
+I'll turn to you, Blaine, if the agent in flying lays start to recommend you as an ideas, then that would be on that day case. Even being it's craziest way to ask you to do it, the agent should say no. So we want these type of test cases again and again. until we reach the level of accuracy and the consistency. 
+
+That output is a critical input to our AI governance process. And there's a time that our agent would earn is right to production and end fast. But as you guys heard earlier, how is it mentioned, agent operating engineering production is not the end. is actually the beginning. 
+
+That's a starting time that you gather the real user feedbacks. So you can never anticipate all of the questions that one user will be able to ask, and you certainly not know what the answer is beforehand. So, different from the offline email that you're working on, the predefined style of question and answers. 
+
+I'm naive, I'll actually rely on the real-time interactions. So without war truths, there are still a set of matches of saddle club. And I was just, can't help you understand your system performance in the real time. 
+
+Let's go back to the example we just talked about before. The investment and its agent. So, we can, after a matter of hallucination, right? 
+
+What does mean by conversation all theory is simply a factor check on the output of the agent to make sure that every number is wanted. And also every claim is backed up in the original statement equalled by the human. And 2nd one, we could rely on, would be the relevancy check. 
+
+One of the sea shacks, the output result, is really answering the original question, asked by the human. If the human is asking about the performance of microfolio, then we couldn't just talk about the risk and it is. at the end. Along with periodical rebound of all the evils, our naive option for providers is continuous confidence to the agent, the performance. 
+
+And he's a critical input to what we call OKI process. Okay, what we stand for? Ongoing, performance, laundry. 
+
+One key watch that I want to raise is have these 2 displays. I interconnected. They are not inside out. 
+
+It's not always off-line Elon 1st and then I'm naive. As Tony mentioned in the previous pipeline, we actually shaped the agent along with his scarios, along with his governor's skills. And so what does that mean? 
+
+I mean, it's from the 1st answer generated by our agent, we have the company, they're tracing, we have the company monitor, and also we have the on-line email, along with it already. And the model agent is already a subject matter as pert, expert can come, and review the result, the good and bad results can be become the negative and positive cases, we just mentioned, that can be run over and over again to in our offline about process. So the more interactions we have, betray the human and also the agent, the better the agent would be and the safer the agent would be. 
+
+If you sing about it, the whole process is no different from hiring and dividing your own teammate. The 1st opener email is essentially an interview process. The purpose of that interview process is to make sure are 2 things. 
+
+One, the teammate will have the right skills. Second, the teammate will have the right mindset not to cross the boundaries. Once the teammate passed that interview, you are at action. 
+
+I'll give you continuously feedback. So the teammate actually can improve the performance. And lastly, we have these, um, um, you know, continuous running of, uh, all my emails, that's your performance review, if you're on your way. 
+
+So, speaking of human, that brings me to the last important topic I want to say, which is human is and is a core of the whole genres of reading well. If you feel like, okay, you have a morning on Sunday night, your homecomers is really, all made, so no human is involved. It's actually not true. 
+
+So, um, we, we, we, I'm started the same message again, again already. The production lounge is actually just a big game. I think these are very different around the traditional technology. 
+
+For that, you know, the same example. When we go to production, my job is done. No, your job just gets got it. 
+
+So there are 2 cases that need to start to evolve the human review over here. The case one would be a parochial review. Even there is an end, no problem, we should sample the agent results and capable tends to verify that agent read his job. 
+
+Just a period with you. And some of the cases we just mentioned about, we have some ami-ibos, right? So those arms judge, you can ascalate VMA, the human perform as a nice judge to make the judgment now, whether the agent is doing the right thing or not. 
+
+All of the talking of feedback becomes creep or input to tune the performance, to shape our agent. In, um, um, all the human eyes that that creep up is knowledge will be, um, captured, abstracted, and the saving should be reusing more skills. So, um, you may be saying, okay, previously, we already talked about like a 20 different skills, the fact that I was still over here. 
+
+This is a business deal, right? That's a differentiator between all these Asians. We structure the part that is a similar, but it's common between these Asian, into that, to see your background, area, does engineering feel. 
+
+And over here, that would amaze every agent different from each other. That would be the human part of training or business, you know, to make it, you know, doing its own job. At last, when we are ready, from individual agent to agent team, I told you, kind of mentioned earlier, human actually provide these alternative skill, or I would love to say a collaboration skill. 
+
+So, in this way, you have multiple agents. Each one that can do his job, but if you put a cheap together, if you don't give those public guidance, they may end up in jail, so you couldn't finish the compact one flow. So that's the type of spirit that our people's meat can come in and provide, make the tea, walking cohesively. 
+
+Um, so the way we see it, the smee is promoted to be the agent, team Lee, to be used as supervisor, and the smee's skills are really amplified, using this every improving book, inside we are embracing human. human is at the core of the whole operating mall. Thank you, Jane. So we started one agent and we ended up with the fleet of agents. 
+
+But being fast wasn't the entire story. Yeah, we wanted to be fast. We won a 1000000 ages. 
+
+But being fast isn't enough. We also have to be trusted. And in the end, this whole process, you always have to remember, the human is always at the core. 
+
+So being fast, being trusted, and then forgetting about that human. That's how we got from what agent to the fleet. Thank you. 
+
+Please welcome to the stage on the next speakers from Apollo, on Chopala, and Annie Ruda Love.
+
+================================================================================
+RECORDING 5: Apollo
+Date: September 24, 2026
+Duration: 15 minutes, 27 seconds
+================================================================================
+
+I'll see you back. We'll talk a bit through our VI agent and majority that it's been through, the itations that it's been through. And then we talk about a very specific part of that journey, which is moving from line after details. 
+
+So, what is a problem? The one liner is that Apollo against our liner market system. Um, that one line of hides a lot of complex opinion, of what happens behind the seas. 
+
+When people they go to market, they can sell, and they make us one job. When you pee back the years, there's a lot of different things that happen behind the scenes for the remark. On the one end of the spectrum, it's, it seems like toss magnet. 
+
+You're trying to find the right people, the right companies, you're trying to find, you know, the people that are certain. And then on another end of the spectrum, You might have something like, you might be close to the microplines product, and you need to find the last person who's already on the game. right? And Japanese are happening between. 
+
+For time, in which study, I'm trying to do, you know, like some emails, or I'm trying someone's phone number. And apologies to one account that does all these things together. A few weeks since last year, what he comes from a state, we, customers, we've been willing to start for over the banking, passing a lot of context, yeah, and what works and all, whatever, what are. 
+
+Agents are coming to trade it for 2 kids, the master Russians, the actions on we have of our users. There are 2 things that make AI, especially challenging our work, one is scale. You know, we are main to users and we have those many users. 
+
+Everything needs to work on DMR, uh, why you cannot slow ramp things off. I mean, how long is a bit more salty, which is humans don't like being sold in by the ad, right? So we need to be very careful as to what parts talk about automatic motion. 
+
+We can have any on EI forces now. So another question to ask is, you know, why have we done the postings? My art was, you know, keep the food in the plot, I might not keep filling better dashboard and values, I see. 
+
+So, uh, the answer to this, many narrow years of the computer science, which is going to market is not a job. So as we built this product for the last few years, we got 3, 3 photography pieces of impact on our customs. The 1st one was that the product was too well. 
+
+You know, as we lost 2 features, as we did more things, our customers had to learn, we worked closely either to just figure out how to learn as your teacher has to work. So why do you like that? We like that or even my tools, it was, there was a low income associated with things. 
+
+And as a friend, we also made a lot of family work that I was serious, like researching companies, finding people. All of these things were very nice with human and customer sodas, here's a visa, user, right? But, you know, I still am spending my time and that time decided, you know, I could be sad in that time. 
+
+I think the product's searching quite a bit. Right? They were doing a lot of different things at loss, and the reality of good market is every set of all package, uh, requires different, we don't think about next. 
+
+And the way your products are going to be 5 things are very different. They're just, you know, using MacBook that product. I've seen that, you know, great, crazy, when it was something, really, one of my things happened in the industry, which is an landscape about, they changed the way people think about working with class. 
+
+Customers got useful rules where they wanted to specify intent. They wanted to satisfy their goals. And then they just wanted to be magical around the United States that were, you know, 2 things format. 
+
+And they became less about the complexities, a lot of time in the United States. And so we are going to go back and came through, in this new world, what do we want people for travel to follow past? And so we did some soul searching, landing on an Asian experience where the agents were not only able to answer your questions, but for actually work and act on our behalf, right? 
+
+They have actual agency as the way they're able to move on. Um, between yourself, the 91, um, you know, he started working on this a little bit more than he doing out. We lost the 1st version of our agent, based on Lanka, over the summer. 
+
+Later, Germany, available, customers like it, but then we don't need backwards on customers, and that wasn't really on too big. Someone was like it, but they said this was limited in what people were able to get down with it. And the engineer us, that work on us told us, hey, this is big, but this is hard to extend. 
+
+When I'm a teacher, it's like a big, you know, project on some base laws. So, it went back to, right, what, uh, top 2 option was kind of, like, on occasions, as a reformer, uh, it took us about 2 to 3 months to go from that old organ, actually, to the new architecture, and we generally. And the majority of the customers are in, like, how to follow in, like, through Disney Indian space, architecture arena. 
+
+So that notice, I'm going to, I'm going to watch, uh, options, team, all spot, AI, and, uh, the horror, some memories, and everything, uh, uh, games. So. Thank you. 
+
+Okay, because that, I think you guys have context, what my who is, what chicken is, to some lady. So it will sound like notice. So build the AS in which you host MVB, look like this, you have one interface, when customers would just go and tie in specific things that they want to achieve. 
+
+And Amuro will work behind the scenes to get things started. The 1st version that we read was when it was finally, it was enriching, it was e-surging, and then measuring, and he, of course, said, what he should done for the customers. Why work for what was essentially? 
+
+Because we had all the data and context from customer data. That's what made it magic. That's what Hill does get to the situation where the passion and passion. 
+
+So talk more about the 1st version than we launched initially. It was land in our ways, it had a supervisor serving in architecture where supervisor's whole job was initially carrying out what some area to call. This was potentially hardwired. 
+
+Every single mosque is submitted that you see there, has a specific size of work with, and it means streets. And it does really well. Supervisor was passing the back to prospecting agent in which you take it with their own thing. 
+
+There was context being passed from each of the sub agents that made context blow up and was making somewhat difficult for customers to achieve things. So we talk about the specific problems we found in today. This was essentially the whole architecture which both did it. 
+
+So it worked. yes. Did it write the custom? That's a very different question to answer. 
+
+The feedback, like I would say, the consistent feedback that you are getting is it's taking too much time to buy out new things. When every single time we add an incapability, we have to build a new subagent that works exactly the way we want. So we'll talk about the next problems. 
+
+So 1st problem is engineering cost itself, launching the 1st version of savage and at 20% quality is okay, but getting a really percentage where it took timely. They're not events, a lot of sign curing required data. Second was the user process itself. 
+
+I'll give the example where. So every single kind of customer asks a question to some, the AI system itself, there were 5 multiple conformations that customer had to confirm. So whenever we wanted these problems, customers just dropped off. 
+
+So he saw the numbers for the customers using our system drop off significantly. Let's talk this 3rd one, also connotation. I spoke more than earlier as well. 
+
+Long conversations, a lot of context, that that is getting problems as well. The last one's shipping cost. As we grew, like, I want to still expanding, adding new capabilities became a pain that engineering was suffering. 
+
+Every single capability came to the OT and we didn't have enough sort of capacity to develop on every single plane. So what we did, so 1st version that we launch essentially asked, hey, what I should be doing? So we were buying them every single time. 
+
+The we to ask the next version that we wanted to work through is rather than trying to guide the agent to work in a specified direction, wiring wiring up the whole paths together for it, execute. You wanted to give models to deliberately do, essentially identify what those should be. So that was a cool family, one more veggie. 
+
+Second goal, the tertiary, the secondary goal that we had in mind was it should be quick to add in capabilities. With that in mind, we have this new architecture, I'm sure it's based on details. So, Magda earlier, he regions now. 
+
+How did it work? So we'll go on each of these boxes. This would be interesting sort of to focus on. 
+
+So the agent was a single group that did the whole work together. The 1st box you see there is flying you. trying to make sure, figuring out what skills to use is easier. It did the whole orchestration piece for us. 
+
+The 2nd possible you see there in here is kids angry. A new capability is a single sign that indicates what it does. There's no winding up, there's nothing where it will lighting the supervisor to move and execute in a certain path. 
+
+Thermonister takes in the memory. We handed a virtual prices in which make sure that context law is not a problem for us anymore. Last one is sponsored. 
+
+This was primarily to make sure that there is some isolation in the execution. This is nothing to do with the previous subject that we have. And the last layer that we see was one of the critical pieces, the governance piece, which turned all the information that customers wanted to be part of as a mom, you could turn on and off. 
+
+It should agent ask me before executing certain sets. Those all things work out here. Customers positions actually say that, hey, if you spend more than 20 grades in doing experiences, stop and ask me before you do that. 
+
+That's where the government's player came into the picture. Now, the model owns the plant capabilities and activities just go on and get capabilities and contains things for it. So these were the outcomes of this architecture that we work on. 
+
+So customer jumped straight from asking questions to getting results without all these intermediate steps. Now, why do you think this? We evaluated other favors that were there in the market at that point, and one of those primary ones was plot code AZK. 
+
+We were fan of it, essentially, we wanted to use that, but again, we went back to Prongo, figure, came out what instrument are, exactly, all these criterias, could primarily, reason why we chose emails for smaller neutrality, we wanted to mention that those scores of picking up what models is open for us in future as we go. We didn't want to restrict it to specific dramas. Second person wanted something, that's over, because we wanted some capabilities that are specific to a model. 
+
+That when we use the same. And lastly, then, we are heavily interested in maximum in terms of our observatory staff, or the emails, or the tools that we use to Aurora, a time plan. So all 3 of these visas sort of nurses in the direction of using evasion itself. 
+
+So all of our, we talk about confirmations, we talk about context, we talk about how we're passing the data, passing the back to agents, intending, and set to figure out how they're equal. The 2nd part we talked about was death, practically your death velocity in terms of launching new things. One part saw it on a D by building space, and then skills were paired by this, like, number one, for worse and further, and accelerate all of our art court. 
+
+So what we did, especially, is built on data script, then took care of making sure our natural language, prompt in terms of what needs to be done, is translated into a coherent skill that works with the real language that we have. So that does work in our favor and heritage cutting down the velocity, like deftime and this is the velocity by 8285%. There was a significant wave. 
+
+Now any new capability that we could add for our customers, it takes about 2 or 3 days to get into like we one at least. So overall, we have sought most of the problems that we have, but how did it impact us? This was the most important things that we learned throughout. 
+
+Our customers were dropping off a real life right in center. Like, they were going through execution paths, dropping, figuring out that, like, a student asking a bunch of questions to my mom, they were probably not going to be. That did solve. 
+
+So initial numbers we saw, our latencies were improving, but as we matured, as the data mentioned, in terms of we gather more data, we realize that since we are passing the Baku, this guy, so agent itself, our latencies have brought, say, like, increased significantly. We were bought into those problems, but I learned there was customers don't range for it in terms of seeing higher agency. They range for it if you're not doing what you're promising. 
+
+So agent was able to achieve what customers asked at a heritage. Our numbers showed up like the numbers that you see there have has been 31% 38% lift up in 3 days, 7 day retention. That was a big win for us. 
+
+The customers were likely to book meetings by a multiple of 2.3 X. That was a big bond in terms of what customers were going on. And today, more than 50% of the customers have 9 on our system, an engine surface, because in cheap, AC cube, one of the power, one GM side. Next one. 
+
+So what's next? So we've paid, this will assist me a slash agent for a customer to work with. It's the 1st version that we thought was, yeah, yeah, yeah, assistant in the web app itself. 
+
+The next version we want is a point was a direction wherein we sit where customers are. Think of slack, think of MCP, think of CNI. We recently lost on slack, the use skills that we have in mind is SDR is commuting to office. 
+
+They should be able to send a message to a group on Slack saying, hey, go figure out the 50 leads, matching my ICB that I have not placed out in the last 2 quarters. Get those insurance for me. A borrowing term gets those inerts for them. 
+
+Make sure that there's a campaign strategy, a nash with it, and a click of garden, they're able to execute and put a strategy in place and get those stated within, they can optimize on that strategy around the way. So doing everything from Slack autonomously is what they're targeting. That's the next step in terms of building the product for our ownselves. 
+
+So we want to be there with customer and 2nd program that we're thinking, building on top of it is essentially launching autonomous agents where things that are happening behind the scenes for you without customers even knowing. So, thank you. Please reach out to us on the stage, online, and if I any follow questions.
+
+
+
+================================================================================
+RECORDING 6: Focused + Weber Shandwick
+Date: September 24, 2026
+Duration: 9 minutes, 13 seconds
+================================================================================
+
+And I'm George Sam. I'm an Asian engineer at Focus, uh, our services company that helps organizations like Robert, build production meetings. So wherever generate, it's a global PR education agency. 
+
+We work with a group of clients, like farmer, a real support of Wangitong, which is a large enterprise. So it's a very, like, enterprise environment, we'll be cloud employment. We need to integrate with different platforms to start with German enterprise. 
+
+It's not like we migrated to a harmony class proprietary AI platform. So we need to support all that. And we have a lot of previous security requirements. 
+
+But we want to scale how we approach agent, deployment, and agency, development, and inspiring hardware to focus. So I'm focused, we are main believers, and components of eval, training and development. This means defining standard up front, what success looks like for the agent you want to build, devising metrics that you can measure, certain, you know, measure your agent's performance against that success criteria. that building, an Asian workflow towards that, and measuring performance, and that would agree. 
+
+This establishes quality as an executable constraint, travel continuously throughout the age of life cycle, development life cycle, not at the end. It gives you confidence to iterate on delivered agents, knowing that every change can be measuring against a baseline and gave it out of results. And just as a framework or practice, it gives a background to rely on a drive success in any space. 
+
+So, you know, as I was saying, we're trying to a kind of scale or a deployment of AI, we saw a lot of demand coming close from internal stables, from clients, with different use cases, different opportunities. And originally we approaches like case by case, standalone agents and development. We have different use cases, but for a listener, a trends analyst, youth brief, scenario planner, and creative discovery. 
+
+So again, it's a stand alone, but we have to feel that we want to find a way to do that. Right? So yeah, still kind of mentioned in our early days, these were built as one-off agents, in isolation, you know, targeting a specific use case, and built from the ground up. 
+
+And so with each one of these came a bespoke email suite to cover the behavior that the agent was targeting. And this is how long of these landing production. Users were getting value on them. 
+
+We're kind of on, as we, as we continue developing, we started to notice pads emerging that made us realize that this development approach wasn't going to scale the way that we, why don't I do? So instead of demanding for New Year's cases, we released agents, they were more appetized for additional ones, both internally, clients came to us with them, oh, maybe we can do this, maybe we can do that. But we can increase our income, ensure it's familiar with that. 
+
+So we're trying to find a way to steal it and use focus to do that. Sorry? Yeah, so on the engineering side, we were seeing the same sort of primitive core underlying capabilities, resurfacing across our different postponing agent builds. 
+
+You know, each agent was targeting a specific use case, a different use case, power, like underlying, the underlying workflow, use a lot of sacred products. We needed to integrate with ven rate guys and MCP servers. We needed classification capabilities. 
+
+We needed relevance, scoring, ranking, filtering capabilities, synthesis capabilities. And these were being rebuilt across speech agents within the context of what I was trying to achieve. And not only that, but the emails that we were building to cover those capabilities and valuing that they were, you know, the age of performing as we needed it to, were also being rebuilt across each of this location. 
+
+So when we realized that, you know, when leaders are needed, when we were seeing as engineers, we were starting one in the same direction, we realized that we needed to take, take a step back, and is that redesign our development process to prioritize reasonable core components that we could use to compose it into workflows, and then configure those workflows, as isolated, rank specific components. So as we thought about this, we, you know, we needed to think about it, hey. What does this look like? 
+
+How can we extract what can stay common across these builds and then continue to deliver the client tailor experience that, you know, we needed to? And so thinking about our development process, we wanted an architecture pattern that was reusable, flexible, but simple enough, we could stand out agents pretty quickly. We knew we needed to extract those four capabilities into shared interfaces, tools, subagents, we needed to maintain tent isolation, and then also continue investing in evaluation. 
+
+So for an individual agent build, you know, we wanted to build the workflow once, and again, configure, validate, and deploy that, per client. So within our workflow, we can share the same for implementation across different customized employments, share comp templates, integration interfaces, and then, of course, something else to validate that flow. And then when we needed the change for client employment was the context. instructions, overrides, thresholds, source preferences, time sensitivities, and then rank context itself, as well as access policy, and brand specific house, to make sure that the, you know, customization was serving the customized use case as well as they could. 
+
+So notice that emails are at every level of this, very much a 1st classes, you know, how we thought about approaching this problem. So this is kind of where we ended up as a standard architecture model, a few things to discuss here. So on the left-hand side, we have the brain context. 
+
+This is what we were able to extract from our bespoke agents to, you know, enable runtime customization for different brands. It's included things like brand marketing materials, market strategies, let's see, brand identity, vision, things like that. I think really that they wanted to make this again aware of at runtime to serve what they care about most. 
+
+And then as we move over, we tip in the head of an orchestrator, which is a deep agent, hence travels to take that brain context and user problems, plan a trajectory to address that prompt, delegate tasks to some agents, and finally synthesize another response. So the study units essentially became the shared interfaces for those work abilities that we talked about earlier. We were able to extract those and then build some agents around them, which we could wire into the DPH harness. 
+
+And so each subject was essentially an expert in its own own doing, right? Whether it was a vendor ADI immigration, which is general web search. You name it. 
+
+We could build that subagent so that it knew how to operate on data, you know how to build queries, intelligently against the endpoints of the AGI. You have a filter and reason about the data, with the provided context, distill a payload, to serve back up to your orchestrator synthesis. So this gave us a few things. 
+
+Number one, complex isolation, which is super important for long rising tests, you know, repeated interaction from the user. You might want to own it, and technically a portion of the data, and understand more about it. So my tax isolation is super important. 
+
+But the rank context was provided that every layer of this, but, you know, tool, large tool outbuts, things like that were isolated within the subagents, and they would deliver the most important data backup to the earth, right? It also allowed us to stabilize emails that covered those components. So rather than repeating the cost of building emails in this old manner across different agents, for the same capabilities. 
+
+We're able to build those capabilities as some agents, once emails to cover those ones, once we're happening with those, we can wire them into an orchestrator. Uh, my opinion that's super easy, which is to create a team major, to provide a list of studies. And so we can compose our clothes this way. 
+
+And the other thing with that, you know, stabilizing those core functional emails allows us to do was to shift focus towards, you know, the emails that the more qualitative emails that allowed us to validate that we were meeting the customized needs of clients, right? So they...
+
+================================================================================
+RECORDING 7: LangChain + Rogo
+Date: September 24, 2026
+Duration: 31 minutes, 14 seconds
+================================================================================
+
+In your game. Thanks for having me. For those in the room who don't know, you can talk a little bit about what Rogo is, what you guys do, maybe how you guys started as well. 
+
+For sure. I is learning your science and then working on an investment bank all over the summer. at the czar. I did a kind of classic investment banking, and I think for a few years. 
+
+And then do you be reading that? And it became very clearly the type of work I was doing at the ZAR. was not going to be the same. And so I love to start this business about 5 years ago. 
+
+And we are building out a full AI operating system for high finance and what that means is we build vertical specific agents for investment banking, private equity, public equities, and all sorts of other parts of capital markets. Well, maybe they got a little concrete diet into it. What is an example of a vertical unit that you guys built? 
+
+One good example is an agent that can run every morning for a private activity firm to update their deal pipeline. And so, if you're an investor at a product, wait, or private credit firm, you might, every Monday morning, look at this whole reservoir of deals, your team can pursue, update your thesis on it, and then decide whether or not to reach out to that company, decide whether or not you want to mark up, you know, something impact by one, and we will update your serum, update the power plant page, send it out to everyone on that DOT. And basically obviate the need for a junior analyst, or junior associates, and the whole weekend preparing for that Monday we're beginning. 
+
+How do you how do you choose, like, what parts of that process to automate in what order? I mean, I imagine there's a lot of different things in issues. Where do you start? 
+
+You know, so we think of ourselves as building for primitives, for finance agents, and then having an exceptional, sort of partnership, professional services arm, that we call forward deployed bankers, forward deployed investors, that take those primitives, and adapt them to your workload. Because the reality is, you know, everyone invests in more or less the same garage, for a swim, where everyone does investment that game. You source a deal, you execute on a deal, due diligence, and you, you know, monitor it after the fact. 
+
+But every firm does those things with their own flavor. And if you take a great investor from Blackstone and drop them in Apollo, they're still going to have a lot of the same primitives, but they're going to have to readjust the way that the public actually does that work. And so, we will have a team of former makers when our investors come on site and help prioritize those workflows in those 80s to go to furnace. 
+
+What are your examples of determinives? Um, you know, some of them are very similar to where those labs are going. An agent who, right, you know, concepts of skills, agents, that kind of thing. 
+
+And some are more relevant to finance. And so we have, you know, a what we call intelligence life, which is kind of like a CRM, kind of like a labs concept of memory, except bifurcated across a lot of net entities that matter to deal makers. Companies, LPs, GPs, individuals, investors, and so on. 
+
+That's one example. But, I mean, in many ways, it's the same kind of corporate lives at the labs. the labs you build, but with the, you know, few of the Gucci moms that are necessary for high finance. Does that make sense? 
+
+You also mentioned kind of like forward employee bankers. I've heard of obviously 4 employed engineers, not afforded one makers. You meant, I think you said they were like former bankers and then, if I'm understanding correctly, they they'll go in and help adapt probability to different firms. 
+
+Is that roughly, right? Yeah, that's probably right. What we discovered is that you get a lot more horsepower, domain experts that understand the firms, understand the wordclose, and our AI flew in, AI literate, and you do with, you know, engineers who actually deeply understand the whole lapse of the technology, but maybe don't have that last mile to be an expertise to figure out how to apply it in the day-to-day lives of baseball. 
+
+And is it more important for these folks to have technical problems or like they need knowledge? It's more important for them to have banking knowledge. And that's the job of our product and engineering team, to make sure that they have everything they need to take over the product to our customers. 
+
+And so when we speed the product organization, you know, our product work has 2 different end users. One is the actual bankers, investors, they use the book product, but the other is before we play banking or good investing team, that needs to be able to extend our core product to any of these very relevant finance use cases. Have you found yourselves, like, building? 
+
+How are you, uh, prioritize the building for those 2 different kind of like target audience? Has that changed over time? Have you drifted more towards even for employee makers or for the end users? 
+
+Or is it really a balance? What does that mean? Well, you really want to make sure that anything you're building, uh, for that forward appointment, team forward, investing team, kind of actually need productized directly for the end user. 
+
+And in many ways, having that human layer is the kind of crutch until it's all productized. And I'll give you an example, which is, you know, if you want an onboard, a financial advisor, right? You're selling an wealth management, uh, as opposed to, you know, investment anger, or, or, I would I think, investor, you know, one of the 1st things we might have to do is the floor deployed. 
+
+Investors ask them, you know, what is the 1st strategy? Is how you communicate an investment mandate to your client? What your risk policy? 
+
+You know, what are your policies around, and you work with your clients, and you integrate all of that into their skills and workflows and ages that they were. In actuality, we'd be way better if we could just adapt that stuff up from learning from the user or their data, but because we kind of productized that last mile, you can use humans as a crutch and they turn. How long do you think that internally? 
+
+At least another two years, probably not longer than five years. Do you have, like, an idea of, like, what if, if that, is that human crush, like, gets your movement? What does the experience look like? 
+
+Are you just chatting with Robo and it remembers? The experience is still strong. So when you look at our business, we work with, you know, the basically every large ball drag investment bank, most of their bankers, which, you know, number of the world's largest asset managers, productive firms. 
+
+And it was all front office and some middle and back office. You know, it was impossible for us to spend one on one time with every one of the 10,000 users at, you know, a very large man. And so, what our for good bankers do is help tailor the product to the institution, a firm, and make sure that, you know, the workflows are talked about underlying cases that's involved, the firm's policies that's replaced out, dating the right CRMs, and systems a record, and it has some standardized, kind of like knowledge working bonus that everyone would draw. 
+
+But then, a lot of the functionality that our work with bankers use to customize, is still exposed to the end users. And so when we're unable to do the work to make it, you know, fully customized, users actually do it themselves, too. And I think, you know, two years ago, when enterprises were looking at AI adoption, they really felt like it had to be a push. pushed to your users. 
+
+This is what you would use. You know, you better start using any better adapting, no matter what your data and your skills and work those into it. I think the reality is, if you don't have products and also pull that from users that naturally suck out their work clothes, somehow what they need to focus on other data, you're not using the right product. 
+
+And so we try to do both. How, how, how would you try to do that, like sucking out of the marphos? You know, some here's a very trivial example, which is, you know, on a weekly basis, you can try and look at what the user is doing and suggest a bunch of workflows they codify. 
+
+And if they decide to modify one of those work, those way you should do, suggest that to the whole team. And then elevate them with the team with the organization. And there needs to be these kind of, like, you know, in a lot of functional purposes, dreaming, the kind of compassion, how to take what everybody's doing, put it into, you know, some sort of way that they can cover it. 
+
+And you can be able to figure out how to do that across teams, across roads, like, levels of altitude in an organization. with suggestions and proactivity. Because we didn't think we have to make sure we do, right, is you can't share things and share things that are sensitive. So, you know, I want people, I want the agents in the organization, to learn, you know, how the sausage is made, but they shouldn't get the sausage in your fingernails, right? 
+
+Like, I can't have the data for this deal impacting what someone of this deal does. But if you learn how to do a very robust analysis over here, this huge blocker's not as well. I didn't even ask for that shit. 
+
+We have, we have constant, I think, use your level memory and very similarly what you like. There's this mix of things that you want in ancient memory, in Mexico, you want to use your memory, you don't want to play, like, conflate them. How do you guys prevent some of those more random things from getting into a shared kind of memory? 
+
+So, one is just a kind of implicit US bias to divorce an approval flow before you push information out to, you know, proper order. The 2nd is letting organizations really define and odd at the definitions of secret, confidential MMPI, and all the different, you know, ways you might classify this data. And then, you know, have very robust emails around proving that, you know, we can guarantee that there's a sensitive deal document, and we extract deal terms, that will be flagged as that, and PI, they can't be sure. 
+
+And there's a lot of art that goes into that. Yeah, okay. Maybe talking about the ancient food that you mentioned as one of the primitives. 
+
+How does that compare some of the off the shelf agent loose from some of the labs or some of the coding agents, whatever is a similar, where is it different? You know, in a lot of ways, I don't think we're necessarily gonna improve on fundamental Asian loops that I think was offering, and I want to be functional, right? The same way a large enterprise wants to be multi-cloud, because you want to say backup, I actually want to be multi-harness and multi-agent lube in many ways, because of the new model comes in out, and all of a sudden there's better techniques for compassion or follows and so on. 
+
+I want to be able to leverage those straight away. I will I have fruit mine. That is branded specific. 
+
+If I look at how ours fundamentally differs, um, from, you know, if I was just using open code or something like that, um, we spend a lot more time forcing the agent to use citations and the auditives and on outputs before it goes to user. And so one of the metrics we care a lot about, all of our habits and our taxes, ASI, attributable source modification. Can I substantiate each claim and every output back to another line primary source? 
+
+Not just as an accurate, but as a playo. And that kind of overhanded, yeah, to our our, like, harness. is fairly substantial. And do you show that to the user, the ASAP? 
+
+The actual score? Yeah, or whatever it is. citations, you know, we show the citations. Yes, there was. 
+
+I mean, the the early, uh, the early road program success just came from citations. You know, we were a lot different, selling, or, or any of the, it was kind of generic chats we just had, really robust citations. And we've already always really focused on that automatically. 
+
+That said, I will say, like, these days, we also get complaints about lazy, because sometimes if you ask someone, ask this guy, blue, you don't need every sentence to be, you know, annotated with citation. If you were talking about a cool leading scientist, asked by the Sky is Blue, you're not going to be the primary source actors. There's a nice planet, fluency, and in fact, if you force them to cite everything they say, you might actually get a worse answer. 
+
+And so there is a natural tension optimizing for automobility. Are there other ways that you've thought about building trust when building the system? The reason I ask is, I think, I think my financial services is a great kind of look for me grounds for enterprise AI because the bar for trust is so high. 
+
+And so I'm curious what you've done to help build that. A lot of it's in the US, how do you meet the user where they are and make sure that they matter what that output body is, it's usable. And people didn't realize that for something 99% accurate, but it's not optimal. 
+
+It's actually not useful because if I don't know where to check every cell and check the kind of lineage of the computation, I need to start from scratch. And so there's a lot that we do to make sure that, you know, whether we finish something in completion or whether it needs more, you know how to integrate what you're doing. And a lot of that comes down to the day-to-day books showing how calculations are done, using the same kind of intermediate forms that anchors and investors are used to. 
+
+As an example, I think in early days, a lot of folks thought Excel is gonna die, and I can, you know, run a DCF or a company using Python. And that's true. That actually might be easier for that whole time to do. 
+
+But you know what? There's no investor, they're gonna audit that pinpunk code to make sure you're calculating the scan of cash flow, but it's right away. And so making sure you're kind of adapting to have, you know, these fingers investors actually check their own work, actually use their own work, too. 
+
+I, I, yeah, I, I, I know that. I think I think the, like, being able to audit, the results is so important and probably where a lot of humans will be in the loop for these systems. And so having a really good US there, actually, for it. 
+
+What about the Max for, like, kicking off and starting these agents? Because in chat based interface, it's a background. We have a chat, we have, we're in Excel, we're in PowerPoint. 
+
+We're an email, a lot of our senior users actually use this via email. And then more and more, we're trying to be proactive, right? Like, I would rather just look at your calendar and send a hole that has your eating prep, you know, for 15 minutes before without even having to ask me to do it or do something like pre-drafting emails and stage, or now, energy now. or do a lot of work that's never going to be able to even appreciate it, but update your CRM and clean it overnight, and just send you that triage of that in the week, where I did that for you. 
+
+But I would say still, you know, dominant share of our tokens or are spent in reactive work clothes. People come to us to ask things, I think, that'll shift, but there's the next year. you're saying? When that shift happens, how, or maybe right now? 
+
+Like, how much is totally cost a consideration treatment versus like accuracy? And you also mentioned latency or not? You've been balance those three. 
+
+Where are you spending on your time right now? Alternative. All three. 
+
+Pick one or ring one somewhere. There's no such thing. I mean, every task has its own sacron name, right? 
+
+So it's like, if I'm saying, I think this is a, this isn't a full elevation, where there's not a human in the loop, but if we've been on top of the loop, we come out of updated systems, well, obviously it needs to be a greater than our human body, right? That is full self trial. If there's something that's not full cell driving, but, you know, cruise control, and, you know, there's a human theory, correct it. 
+
+Well maybe you care more about, you know, Toba constantly, and see. And so it really does depend, you know, part of the institution. And then I would say there's no enterprise line on earth that doesn't care about all three. 
+
+And so it's fine having to care about what our customers care about. And there's no one saying, yeah, don't worry about total cost. You mentioned emails right there. 
+
+What did we also like for this? Yes, we spent a lot of time on emails for some of these attributes, like an attributable source identification. And then we sent a lot of time on emails that are task specific. 
+
+And so we have a full email set of different types of artifacts that are relevant to different parts of the investment or investment banking lifestycle. so that we can very clearly stay break, you know, at this stage of the deal, we can run autobilot, but these models, because, you know, that we're hitting, you know, what we consider human or superhuman thresholds. And so that means a lot of PowerPoints, they said alls were dogs, research, we're closing that. Have there been any of those systems that are opportuned to tribulate there in a great way? 
+
+Like, how many cells? Yeah. Yeah, yeah. 
+
+I mean, it seems like you're, like, it is, you said something early about, like, integrating the systems where humans already are, because it's the only way they have, like, very verified org. I met a lot of those aren't necessarily easy to do. Yeah, I mean, look, there's especially in finance workclose, where there's a lot of systems that actually don't have an API or program interface for an agent to connect to. 
+
+I can be a pain, and I'll give you an example, which is say you're a second, you're a private credit, a secondary investor, often to get the data for your workflows. You have to log into some portable from some LP or GP every quarter and, you know, download a PDF and then extract that manually. Luckily, with things like computer use now, that's becoming more and more feasible. 
+
+And so there are fewer, fewer interfaces that you can't figure out on a cherry where you get connection into. But until a computer, you've got good earlier this year, yeah, a lot of those data sources were completely opaque and accessible. So, are you guys doing a lot of computer use in your classroom? 
+
+Sure. I mean, I think computers should always be the last Chris Ward. It's slow, it's token consumptive, it's harder to audit, it's harder to figure out, like, the culture of what would happen. 
+
+That's that, there's still a lot of parts of the digital world that are only accessible through meeting, you know, those platforms in their native interfaces that were assigned for humans, in which case you need computers. And I feel like we haven't, I feel like we haven't seen a ton of computers. I don't know the last one because the models aren't good enough, or there's just no tricks in the hardness you have to do, or there's certain calls that came out that they push it over a crush roll for you guys, or is there a lot of engineering? 
+
+Um, no, no, I was. I mean, I, as a rule, whether there's a fundamental capability, that it's clear the labs, care about. I try not to overextend all our DI burst to create all the structure around that to, you know, make up the models, failure models, because it's clear, the labs care about computer use, I can spend all my time trying to get your use 10% better. 
+
+Or, you know, maybe order the wave 4 months and we order to get there. Computer use was good to make examples that for me. I would say in the last 2 generations of models, I think, like, uh, fight adapted, or houser capabilities, you know, using Microsoft and Office and Mac locations, actually in their updated interfaces. over the past three, 4 months, it's become clear, you know, you can do your control. 
+
+It makes you a question, what are you doing, computers? Are you running kind of like on their actual like blacktop or now? So that, that, that, that is something we spent a lot of time thinking about because obviously the experience of running, like clock kind of work, coming back on your local desktop isn't awesome. 
+
+I guess your file system in it, your permission to all that. Uh, that's an extremely scary thing if you're an enterprise or a large banker or a large private, I believe, an SNN interpret. I actually think a lot of those firms kind of appreciate how scary that is to basically say, hey, we're given a new employee of that and all these access controls. 
+
+And so, we don't even know that where it is. There's no actual Asia right on the crisis for that employee. Lakers for the argument in place. 
+
+And so we found better approach was to Santa Fox, and it'd be very specific and prescriptive with what permissions and controls. We give that sandbox, and then make sure to enterprise appline instead of the full mobility and ability to control those sandboxes. I think it's still, it's still up in the air, how comfortable people will get out with local teenagers. 
+
+And one reason I know that's true is because if people get a lot of these large financial institutions, uh, for a lot of them, you know, if you're an investment banker and you want to be your computer, you actually then have to log into a VM from your, you know, Excel, and you're, you know, XP, whatever it is, because they need to be able to have full kind of area control of that anyway. So you don't even use your little bits. For a lot of these things, we're just like taking actions and doing things and interacting with data. 
+
+And then I think that requires like having a good kind of like data strategy or 8 guy questions ahead of time. Have you found that like that's been the case for a lot of the orientations you work with or is that they are they still spending a ton of time on data? No, they're spending so much time on that, but I would say that, you know, if we were sitting here 2 years ago and, you know, a Fortune 100 company was asking kind of what, allow AI to worry over all my data. 
+
+Really, the only good answer would have been, you know, you need some hybrid search tool, you need to embed all your data, maybe add some metadata and some knowledge graph attributes, because you need the tools for search to be so strong for the models to be able to learn it well. And that was a hard thing to do, because then probably giving someone else your data to host it somewhere else. And so it was already, you know, kind of a kind of a thorny question for a large enterprise. 
+
+Today, with the genetic surge techniques, you know, often you can just query that data in place the same way a human does. And so instead of having to construct some elaborate knowledge graph where you tag every document, what you can say is, you know, just let the agent, you know, run a lot of search variances. So if you're having trouble finding something in my sheer plane, well, you can check my calendar and see when I have a meeting and when I've been prepping for that, you know, that meeting and that filter on SharePoint afterwards, and you just run a lot of queries in your place. 
+
+Obviously, that doesn't work for queries that are required, uh, conticulously structured data, but for 90% of I see internal data, which cases, that that's totally fine. I was gonna ask you how there are there exceptions to this agentic search where you guys do spend 100%? Maybe you guys help with that? 
+
+If you will come with that, Um, we will help with that. But I do think often, you know, I think there's a lot of enterprise stakeholders. We don't have a good answer for, like, what is your advantage as an investment term or a bank until you always save my data? 
+
+And when you say that too many times, then you have to actually work on organizing data, because you told so many people in such an advantage of all this data. And then when you realize when you eventually develop that work on that data, is you don't have to take advantage and you probably should have spent more time creating a library or data from here on out versus going and spending all that last 10 years. Sometimes it's hard to convince an organization about it. 
+
+Um, but that's generally verbal, efficient pushing. You mentioned earlier that you don't want to spend a lot of, like, your R&D efforts on things that the labs will do. Where do you guys spend your R&D efforts? 
+
+Um, on things that collabs want to. But I mean, not to be facetious, but it's like, there's a whole bunch of systems that I think it would be completely irrational for the labs to spend time on. Um, let me give you an example. 
+
+Like, if you want a really robust time series data set that helps, you know, catalog every, you know, news article that might be relevant to every public or private company so that you can trigger a bunch of proactive agents, That takes a lot of work. That's a lot of signal processing. That a lot of real-time web spray thing, for very specific use cases. 
+
+And that's a more primitive, that it would be kind of unfathomable to me for the last one to prioritize over the next 12 months, because it wouldn't, you know, create a huge market for them. And it's a lot of work. And so we would spend time with something like that. 
+
+Another good example would be, you know, same, you know, very specific type of CRM for the types of investments and the types of deals you do. you know, where else are you gonna, you know, who's gonna go and spend time creating that? And for me, work for the champion team, working with anthropic. That's not an AI strategy. 
+
+That's a tool in the toolbox, and the tool is very robust, right? It gives you a core platform that has all the shell productivity that's great, and there's APIs that you go on, and there's, you know, connect MCPs, and you can do a lot with it. But it's still just a bunch of tools. 
+
+And there's so much more that goes into a real strategy and so many other systems and data sources and tools that need to be creative. And for me, I can spend all day focusing on if I wanted to create the world's best AI strategy in a box with the world's largest financial institutions, how do I do that? And I'm creating all of those things that I need to allow to do not spend time with. 
+
+And for that strategy, like when you, so when we talk about kind of like building names, ourselves, when we talk about, we work with organizations on there, you guys, your idea, we talk about kind of like people processing technology. Is that kind of the same for you when you go in and talk to customers about their strategy? Like, how much do you give them a solution to give them the technology versus, I don't know, how people would come more comfortable with interacting with AI or set up processes for some of these things? 
+
+You know, I think there's, you need to do it enough in terms of the people work and the change of the engine, and, you know, half an enterprise AI option is people work and change management. But if it feels like pulling teeth, there's probably something. Um, and if you don't, you know, teach folks how to do stuff and be able to give it to these cases, how are they supposed to learn? 
+
+At the same time, if you don't have the leading indicators, organic adoption, organic formality, like there's a problem. Um, you know, we don't you don't want to push too long, is what I'm saying. i.e. if you feel like you need to afford the offer organization, no problem, the keyboard, process. There's probably something else going on. 
+
+And maybe the, you know, the answer of all these on there, yeah, the agent isn't quite good enough. Maybe it's just not a good use case for AI too. When you look, kind of, like, five years out, what will working with AI inside of a financial institution look like? 
+
+What will R would be doing better? I think in some ways, it'll look a lot more, quote, human. I actually think there's so many processes today where there's still a human in the loop with AI, you have to, you know, ask Claude to ask Roger, you have to ask ChatGPT, then you look at it, then you decide, you send it to, then you update the calendar, then you send, you know, you read the email, and a lot of that will be just fully taken care of. 
+
+And I think right now there's this kind of like missing middle where you can do the things that are intrinsically human eye going around the world, speaking to people, form their relationships, you know, gathering the data that AI is gonna have, unless we're there to like, you know, evaluate or not, or a founder, or, you know, shake hands. Nor is it, you know, fully taken care of, like, all the behind the scenes worth of, like, okay, Greg, you know, are we outdating this area? Or are we spending this, like, that, though, are along listed compliance? 
+
+And I think almost all of that stuff will be taken care of. And then I think it'll just get easier and easier for it to naturally kind of organically see what you're doing, such that you don't have constantly. you know, access to the person. Do you have an inflation? 
+
+What would that look like for it to organic? Is this like a device type thing in a couple? Yeah, I mean, I just can't imagine a world in which things like transcription don't become more and more ubiquitous. 
+
+Obviously, there's, you know, people knew way on regulators and what that kind of standards are before you start reporting everything. But, like, if you look at, you know, what are the kind of leading institutions doing, um, I would doubt which very many people within, you know, languaging that do not have no money all the time. Or don't have some formal transfers you're running all the time, but I think that would be completely pervasive. 
+
+For this back office stuff, if you have automated, like, what's needed to get out of the messy middle and get there? I think that's where you feel a lot of humans to help get into the last time, figure out what is the definition of done, what are the systems you need to connect to, how you feel comfortable as an organization, handing these things off. I think the kind of notion that it will just get self improving AI that suddenly just discovers what your organization's definition of good is, is irrational, right? 
+
+And that's partly because, you know, a lot of these processes, you can't derive 1st principles. You know, a lot of enterprises are not, you know, self-contained games like go or chess, or encoding the map, where everything is kind of logically sound, you can build up for nothing, you know, cheer philosopher. There's all to, it requires the interaction with the real world, you know, asking you a question, can I can they answer, or figuring out, you know, what this regular standard is, figuring out what this company's standard is, and integrated that in the day, I think that's human. 
+
+Blood, blood proportion of the remaining work is that kind of like integration and mass level versus the models getting better. Like, if the balls keep on getting better, just, like, 10, 4%, they are five. It makes it easier, I think. 
+
+But I don't think I, you know, it's hard for me to imagine, model intelligence speeding that work up materially. Um, you know, I think the reason 6 months ago, why, you know, researchers in the Valley would say, yeah, Anthropic is gonna be not the company on Earth. they just, you know, assume that if you got to artificial super intelligence, it would just figure out all these immigration problems. And the reality is, humans are gonna be bottlenecked, because we want to decide how these things are employed. 
+
+And when you're building artificial intelligence for basically, you know, a paradigm, you know, fully controlled, you are not regulated by the intelligence. by that organization. And, you know, think about being Tesla and building full self driving, it would be a lot easier if they also got the control of the traffic laws, right? But they do not, they didn't need humans in the traffic laws where they are. 
+
+And so it actually takes a lot longer for them to diffuse for the time. I think that's gonna be the same thing for going ahead, I don't know. You're not regular to buy the intelligence of wholesale driving to a certain degree. 
+
+I'm sure they actually aren't, so we can actually take them as long for Apple self-driving. I think you're waiting a lot more for the traffic laws, for the organization, for, you know, each, you know, state and, you know, each part of the federal government to decide how do we adapt to full self traffic? Maybe last question around things out. 
+
+What is one thing on the horizon that you're really excited about in this space? It's always, if you, being simple, is pretty in this world right now. It's always hard for me to parse out how much of what the labs are saying on Twitter is completely marketing, drivel versus reality. 
+
+Um, but seeing some of the the kind of stuff from AI on some of the math solutions they've been doing is really interesting. And I'm very curious to see how ostensible that type of intelligence is, and whether, you know, we kind of reached ASIA math and coding, and yet not in all these other domains, or if that's gonna be something that actually extends to them too long, more parts of the world, like material, science, research, healthcare, and so. Awesome. 
+
+Well, thanks for being here, Dave. Thanks for sharing all your wisdom. Thanks very much.
+
+
+
+================================================================================
+RECORDING 8: LangChain + LinkedIn
+Date: September 24, 2026
+Duration: 5 minutes, 26 seconds
+================================================================================
+
+So it has the energy, yeah, those class talk. Let's run with it. Today, I will talk about Agent Kicking House and Lincoln's AI management recipes. 
+
+Okay? It's going to be a little bit of content heavy. It's going to be some work, some paper discussion. 
+
+So I'll try to get through this. These things are not clearer, then please reach out to me after the talk. Okay? 
+
+Um, and a little bit of intro, I'm that we are director of AI, at LinkedIn, I need Agent Digals, within Muriel. Okay? Cool. 
+
+So let's 1st stop talking about ages. So agents primarily are very different than models. You have several sessions talking about ages far. 
+
+So when we did modern events, there were set of metrics that we used, right? Precision, decor, AUC, AUPR, NEC2, set of standard methods. Things are very different when you value agents. 
+
+There are no set of standard methods. You have to define them. What is that called? 
+
+Task policies. That's rules. All that is product specific. 
+
+So that's number one, my self complication with agents. Agents are not just one model. You generally use a couple of models chained together. 
+
+It has a harness, it has memory, it has tools, you need to evaluate all confidence. The 2nd complication here is it's not a domestic. You never know what the art will be. 
+
+There's high variants. And then the 3rd one is we use LMS judge at India. And 7 cases use that. 
+
+That itself is not journalistic. If you rerun a judge a couple of times, you can see different examples. So how do you make sure evalues itself is trustworthy? 
+
+It's aligned with human experts in Caleb. So this is this is what LinkedIn follows, and I'll go through the details of the email, because it's evaluation view, that evaluates it, it was anything. And that's how I was there. 
+
+So, This goes through each stage of that, okay? The, um, I couldn't cover 3 stages. I'm going to get team ties for each one of them. 
+
+The 1st stage is human expertise. It is really important to understand what the product is expected to. And for that, it's important for humans to draft and carve out rubrics. policies, golden data sets, and that's the human expertise. 
+
+That's the 1st patent there. The 2nd is a line AI. We want to make sure we develop AI models that is allied to human activities. 
+
+We might have got an alignment in multiple blogs, from Android Bay, from open AI, from Chens and Hong, right? Alignment is critical. If you're if your agent is not deliberate, the end results, that's aligned with the instructions you get to the agent, then it can do many things that you go to contact, right? 
+
+So you need to make sure the engine quality is good. You need to make sure that the right gardeners is secured and that's why the time DI is great. So that's the 2nd box I went through. 
+
+And the last one is production system. You have these charges, you have these care, the AI, align models. How do you use that in production to have a set of grouping loop? 
+
+That's another common pattern you must have seen in a lot of logs. How do you implement self-improving both? I will tell you how Linton does it for his agents. 
+
+Okay? Cool. The 1st 2 components of human expertise in the like AI is all in of that mode. 
+
+The last part about production system is all about land. Okay? So let's talk about the human expertise in this in the satisfied. 
+
+So this is the human data architecture we use that link with. First, we need to have tracing in place. We need to have the right storage, the right infra beams, that's meant for that. 
+
+Once the tracing is in place, tracing is nothing but your agent cross. You need to convert that into a raw data format for humans to allocate it. Okay? 
+
+And we have this thing called internal data annotation studio. This is nothing but an organization platform where linguist PMs, machine learning engineers, back into years, agent engineers, they come and annotate data. This tool has the right to access control. 
+
+So in case you have allocated the data for a particular agent, the vendors should not see, right? There are several attributes that come to this platform, you have the right permission setting. You have the right to user type, so there is an allocator user type. 
+
+There is a reviewer user type, which is more, has more permission with an annotator, and can review that work. There is a national user type that sees everything, okay? So that's the internal data allocation studio. 
+
+The output of that is we stored room bricks policies, we version control it so that when we know that this particular judge is run online, which lubrics.
+
+================================================================================
+RECORDING 9: New Recording 279
+Date: September 24, 2026
+Duration: 14 minutes, 14 seconds
+================================================================================
+
+We also spoken a lot about AI system agents in order to bring aligned AI, human expertise is critical. For that, it's a whole lot of operations, work that the team does. So There are great tiers for human data operation. 
+
+There's tier one. These are high cost human labors. They're charmly communications with this. 
+
+They work, he was leaving PMs. They produce high quality labors. They are they cost us a lot. 
+
+We are full-time employees. They deal with amiguous projects. They are the evaluable experts. 
+
+They've done this for one product. They're now replicating what they call several other products. So they work very closely with UTMs to generate policies, rubrics, for related results. 
+
+The next year is tier two. Generally, they're not from type of logical contractors traveling. They are medium cost, much better scale than here one because of the cost. 
+
+They can attend laptops because they are contracted, they have to build laptops. They can go at the meal. And so there's a good feedback group, in case an allocation on YouTube does not meet the end user requirement for the agent, and the CPIs that they keep in trouble with that, because they can come and tell the students not about it. 
+
+To your tree. The US cost, the US company, the task. You know this is the concrete work needed. 
+
+You are signed into a vendor. That's when we just get it out, extra, right? Feedback room is much longer, usually a quarter, any quarter, we have the speeding, and then we discuss, can these areas of improvement. 
+
+Usually I can block overlook. Okay? So this is how data is created using these scares and these people. posts that we go into the next of like the government, which is a light air. 
+
+So why do we have AI for emails? Okay. Firstly, each trace, they get your trace, for its agents. 
+
+They are 1000000s. 14, right? It is very difficult for a human to take a look at all these traces. Of course, you need prototype, and divorce system, you start with that, your period, it's going to be engineering, almost developed, this humidity budget. 
+
+But when it goes to 10000s and 100s of 1000000s of traces, that's when these become very tricky. And that's when you need air. So the 2 categories of AI models we use at LinkedIn is the Excel evaluator. 
+
+This is the frontier model. Usually, it relates of pameter. We distill that to a mini violator. 
+
+Those are smaller files. And then we do more like a testing on that. And the pilot top in details of how feet are braces are like AI. 
+
+Okay, um, what is Eminem as a charge? We all have thought about this in 7 long hours, even a lot of papers, but concretely in my mind, there are these 3 things. Okay. 
+
+So first, LL has a judge, is a model. It's another model, we have to do step now, one, which is the length, which model is used for LLSD. As I mentioned, there's an excellent value, but there's a mini valatory. 
+
+And totally we call that teacher instrument one, basically a frontier model, which is a teacher model, you distill that into one of the 7 papers, also that talk about that. The teacher model is emulating export ratings. So all the human data operations you saw, they generate good data set of expert ratings, and then you, uh, the excessive value, or the teacher model tries to ally itself with the human ratings as much as possible. 
+
+And then there's a distant model, which is usually an efficient judge. It's smaller, it's cost effective. The teacher model is more pricey. 
+
+We cannot use this for all use cases. I'll talk about which use case for a bit. Thanks for judging instructions. 
+
+So judges, not just the model, it's also the instructions you feed to the body, okay? And there's a lot of science behind what instructions, what prompts you can see to the judge. Typically, what used to happen is engineers used to hand tune props for their charges. 
+
+It used to take one to 2 days per dimension for an engineer. It used to not be of the highest quality. And we provided a process to automate this. 
+
+We use an agent to do prompt optimization. So you're judging instruction itself will be automized regularly using this process, called Spear. And we'll talk a little bit more about spirit. 
+
+The next is the metric. When you say this AI is untied, what does it mean? So basically make sure the scores, given by there's a charge, and given by humans are aligned. 
+
+And the way we compute this is using a metric polypical hand cover. You can read more about it. It's a very standard and nice and metric. 
+
+Once it's above a particular threshold, in which case, for us, it's .8 right now, this is a moving leader, we keep changing it. The more we progress and judge creation, the more the threshold will increase. Um, that time they say this judges graduated. 
+
+And until unless the judge of graduated, you cannot trust it. You cannot use it. Right? 
+
+You can use it for 2 examples, but not for production tools. Okay, let's get into the model selection. So I spoke a bit about Excel manager. 
+
+Those are usually the frontier models. Trader parameters, extremely slow, extremely expensive. Eva Boop runs daily at India for some of the agents. 
+
+They cannot afford to spend that much details, right? So we want to be across the sections. We want to make sure there's otherwise to be done. 
+
+And that's where we distill this teacher model just to move on. We do not transfer distillation. We basically have biggest techniques here I've shown SFT on a small model, which we call mini narrators, but there is, unletters, there's a lot of doctors, several other mitencies for the students. 
+
+Okay. Next is when we say this distant model is production ready, it's basically the end scap again. So the cohens upper between teacher and student monitor be able to fight. 
+
+Moving on. Judging instructions. So you can scan this QI code for the paper. 
+
+But as we intend, it can be really good. Spiord is the prompt optimizer that we use. Typically for prompt optimization, there is algorithms like text grad and Jepa. 
+
+Those are fixed 5 miles. He want to use an agent based from optimizer, and we want to have guidance like automobile props. Let's get into the details. 
+
+So this is the design for spear. Basically, if the judging instructions can optimize a vehicle in my world in some ways. So the input is the initial prompt for the judge. 
+
+The golden data set that the humans, through the operation that I showed, tell them. That's the input box. On the left, you see 4 intelligence, that's basically the LLM one is for aging place and the states. 
+
+And the state memory, we stored the integration from, the metrics, the base nile, and the new business in size. We have tools such as python pool generator, a executor. We have an evaluate function that supports the goal data set against the community generated from. 
+
+We have the set prophemes, this problem to get the graduation criteria, and we have to finish. All this happens in the sandbox secure in the environment so that this agent cannot break the environment. It only has the tools that are given. 
+
+It has the guard fields. So this even basically it does radio, in some cases it has previous resent all the product. Basically keeps optimizing on product. 
+
+If it doesn't work out, it goes back to the process. It can run various functions, like generate a confusion metrics, group error analysis, people contradictions, and then it'll figure out, you know, tells from these. Okay, let's move on to production systems. 
+
+Now that we have the judge model, how many is it? The mini evaluator is run on production traffic because it's less expensive, you can just try to gain. Um, we look at 2 or 3 area modes. based on volume and facts, flexibility. 
+
+We'll have an agent. This is what we call the assessment review. It's we 1st try the cheapest paper, right? 
+
+Optimizing the prompt of the big Asia, because you can see, but then when you go to participator, then you don't want to. The other room that Less talked about, agent Luke, is that it would pay a lot of cars that are published and people are published. But there is an important move of judge. 
+
+You want to keep moving, you're judged too, and users actually bring up various education scenarios. And that's the other group that we look at. And anytime there's a disagreement, human re enters the system for allocation. 
+
+Okay, now let's take a specific example of England Hyde Assistant. They did have several agents it's working on. And one of the agents that's published, I've called GA for more than a year now, is, you've been having assistant. 
+
+This is basically an assistant to recruiters who highly manage to find top qualified candidates. for this job, which is. This one actually hit, I would say this is the most successful enterprise agent that has large scale production deployment of AIs. We hit a milestone of $4000000 DRD. about 18 this year. 
+
+And we're just keeping on increasing that, right? So this is one of the enterprise agents by LinkedIn. Um, One of the subagents there is hiding in type subagents. 
+
+So the root of case 3 types, multitude organization, and this defines what is the hiding intent. For the evaluation of that, we have 3 more groups. We have 20 plus evasion dimensions. 
+
+We have 3+ annotators. So the complexity is private. And this is just for one subagent, right? 
+
+There are several sub-agents. The challenge there that we eventually started with engineers defining the prompt for our charges is the Kohen kapa was really low. So it did not align with human labels. 
+
+It took quite 2 days per dimension, which the engineers could have done. other work of actually publishing more modules and including the agents. Okay, so here enters PR, we use PR for Lincoln hiring assistant and provide a bunch of improvements. The targeted dimension faces we did was one, the ground, get automized per judge. 
+
+So that was automatically handled. The next is sphere also comes out that this particular policy needs tweak. But it tells us that from its insights, we do a tasting, we talk about why we are recommended that, and then we go update the policies for improvements. 3rd is legal contradictions. 
+
+We do not sometimes ask that this quantity as a adaptation did not make sense to me. At least I will tell them. That's when we said that in the allocation, we asked, are you going to do the operations team to do that again? 
+
+Okay, so this is the case study of 3 judges that they didn't have the 16th uses. One of the judge is job location judge and basically tells you whether this is commutable distance or not. Spear improved who has significantly for this and other judges too, has employment time charge, and sound inference judge, and so on. 
+
+Particular example was for the location of rubric. For instance, that rubric you said, computable distance to US. It was very vague. 
+
+It didn't make sense. If your dog isn't asking, I should say that specific location instead of just generalizing to any other views, right? So, Spirit intended that iterated on that based on its job, description and inputs, and that really became more specific. 
+
+Awesome. So the takeaway cure with even type assistant and cladiation. This initial framework that I showed you was actually used by other regents at LinkedIn. 
+
+There are several weird advantage. But the takeaway here is agents. You need to have free type rubric analysis of how agents were hoping. 
+
+You cannot just have one thing judged where they have dug out the entire form. That is not a workout. We have to split it. 
+
+We have to be very critical on our systems and make sure this AI is aligned through their type, right? Or they get judged, tuning is being pretty helpful, whether you use the standard perfume or jet park, it's bad. There's a lot of papers published on that, or you use an agent itself to prompt fine tune, doing that, clothing improve from your judge, not in the judgment, also your day's agent. 
+
+So you can use that. Next is, you should review from day one. The only way you can improve on agents is if you understand where the agent is doing welfare, it's actually suffering, and to create data that's based on that. 
+
+We have a living regression test week, which we target and keep that updated based on trace areas. And next, this group is now the county for path for doing any agent of AI, system evaluation, and HD. So, those are some of the integaways, and with that, thank you so much.
+
+
+

@@ -1,0 +1,291 @@
+THEMES AND KEY LEARNINGS — VOICE MEMOS, SEPTEMBER 24, 2026
+
+SCOPE AND SOURCE NOTES
+
+This synthesis covers all nine September 24 recordings, totaling 2 hours, 55 minutes, 43 seconds. References [1]–[9] identify the recording index below and the matching sections in transcripts.txt.
+
+The source is Voice Memos' automatic transcription. It contains substantial errors in names, technical terms, numbers, and sentence structure, and some recordings end mid-discussion. The transcript files preserve that wording. This synthesis paraphrases clearly supported ideas; it does not reconstruct unclear claims or missing material. Product announcements, performance results, and forecasts are reported as statements made in the recordings, not verified current specifications or independent findings.
+
+Voice Memos generated the previously unavailable Focused + Weber Shandwick transcript during this export. New Recording 279 retains its original app title; its content discusses LinkedIn's evaluation process and Hiring Assistant. Recommendations at the end are actions derived from the talks.
+
+CENTRAL TAKEAWAY
+
+The advantage in enterprise AI comes from the complete operating system around a model: domain context, reusable skills and tools, reliable execution, permissions, evaluation, and a process that turns evidence into improvements. Production deployment begins a learning cycle. Trust and adoption depend on whether users can inspect, correct, and apply the work in their actual workflows.
+
+RECORDING INDEX
+
+[1] 31:14 | Keynote
+[2] 30:31 | LangChain + Modal
+[3] 19:23 | Morgan Stanley
+[4] 19:01 | JP Morgan Chase
+[5] 15:27 | Apollo
+[6] 9:13  | Focused + Weber Shandwick
+[7] 31:14 | LangChain + Rogo
+[8] 5:26  | LangChain + LinkedIn
+[9] 14:14 | New Recording 279
+
+The index follows the recordings from oldest to newest in the app's September 24 list. Titles have been trimmed of surrounding spaces.
+
+CROSS-RECORDING THEMES
+
+1. Own the domain-specific system around the model.
+
+The keynote frames the goal as owning intelligence through three pillars: an open, controllable harness; compounding improvement; and governance. The differentiation comes from the context, data, tools, business logic, and evaluations surrounding the underlying model. Rogo illustrates this with finance-specific workflows, entity-based memory, deal systems, and information services that a general-purpose model provider would have little reason to build. [1, 7]
+
+Key learning: A model subscription is one ingredient of a strategy. Define the domain assets and operating capabilities that turn it into useful work.
+
+2. Preserve model and harness optionality.
+
+The keynote argues for a model-neutral harness so organizations can adopt better models and avoid dependence on a single provider. Apollo selected an open, customizable approach partly to keep model choice available. Rogo extends this to multiple harnesses and agent loops, allowing new orchestration or context-management techniques to be adopted as they improve. [1, 5, 7]
+
+Key learning: Separate durable business logic from replaceable model and execution choices. Reassess the frontier without rebuilding the entire application each time.
+
+3. Shared platforms turn isolated success into repeatable delivery.
+
+Morgan Stanley describes small teams repeatedly solving similar problems, duplicating failures and struggling to reuse successes. Its response is a shared enterprise ecosystem supported by an inner-source contribution process. JPMorgan describes Jarvis as an agent assembly line, with common standards and infrastructure that make each subsequent agent faster to build. Focused and Weber Shandwick similarly move from bespoke builds toward shared capabilities and evaluation suites. [3, 4, 6]
+
+Key learning: Standardize the costly common work—runtime, connectivity, governance, authoring, and evaluation—so teams can concentrate on business outcomes. Provide a contribution and maintenance model, not just a library.
+
+4. Compose reusable capabilities with local business context.
+
+Reusable does not mean identical. JPMorgan separates common engineering skills from the business and collaboration skills that distinguish agents. Focused and Weber Shandwick reuse classification, ranking, filtering, synthesis, and integration capabilities while changing brand instructions, thresholds, source preferences, access policy, and evaluation criteria. Rogo builds common finance primitives that specialists adapt to each firm's way of working. [4, 6, 7]
+
+Key learning: Identify what should remain common and what should be configurable. Keep tenant or client isolation and local quality requirements intact while reusing the implementation.
+
+5. Context and memory need explicit architecture.
+
+Apollo's early supervisor-and-subagent design suffered from growing context as agents passed information back and forth. Its revised system uses a virtual filesystem to manage context and subagents for isolated execution. Focused and Weber Shandwick keep large tool outputs inside specialized subagents and return distilled results to an orchestrator. Morgan Stanley describes short- and long-term memory, artifact workspaces, and backend abstractions. [3, 5, 6]
+
+Rogo adds a separate concern: sharing the method learned from one deal must not expose confidential deal information to another. It describes user versus shared memory, approval flows, information classification, and evaluations of sensitive-data handling. The keynote also distinguishes agent-level and user-level memory. [1, 7]
+
+Key learning: Decide what an agent retains, what it passes upward, what it stores outside active context, and what may be shared. More memory is useful only when its scope and provenance are appropriate.
+
+6. Sandboxes are a core execution primitive.
+
+Modal describes sandboxes serving application generation, background coding agents, and reinforcement-learning rollouts. The underlying needs include fast startup, isolation, reliable execution, scale, and capabilities such as snapshots and cloning. It argues for separating a long-running harness from shorter-lived execution environments so the harness can create, branch, and restore workspaces as needed. Full operating-system environments may be preferable when agents need broad runtime functionality; constrained runtimes remain useful for narrower workloads. [2]
+
+Rogo similarly prefers tightly controlled sandboxes over broad access to a user's local desktop. LinkedIn's prompt-optimization example runs with bounded tools and guardrails inside an isolated environment. [7, 9]
+
+Key learning: Treat code execution as a designed, permissioned service. Choose the environment and lifecycle to match the work rather than assuming the agent and its execution workspace must be one permanent process.
+
+7. Long-running agents require persistence and recovery.
+
+Morgan Stanley describes checkpointing execution state, resuming interrupted tasks, retaining memory, and storing generated artifacts. It also supports interchangeable interfaces, with work initiated in one interface and resumed through another. The keynote separates the agent's business logic, harness, and deployment infrastructure, emphasizing the supporting services required beyond a local prototype. [1, 3]
+
+Key learning: Production readiness includes durable state, recoverable execution, and accessible artifacts, alongside a capable model.
+
+8. Governance belongs before, during, and after execution.
+
+Morgan Stanley embeds controls across the lifecycle: role-based access, versioned definitions, release approvals, approved model connectivity, and runtime middleware that can stop work or request human approval. JPMorgan builds governance into agent creation and evaluation. Apollo uses a separate policy layer for user-controlled confirmations and spending thresholds. The keynote discusses agent identity, user versus service permissions, connection authorization, and the ambiguity of permissions in shared channels. [1, 3, 4, 5]
+
+Key learning: An agent completing its task is insufficient if it exceeds its authority. Build identity, permissions, change approval, and runtime boundaries into the shared platform.
+
+9. Define agent quality in terms of the task and its components.
+
+LinkedIn stresses that familiar model-level metrics do not supply a universal agent-quality measure. Product-specific policies and rubrics are necessary, and evaluation must consider the harness, memory, tools, and multiple models involved. JPMorgan begins with what the agent should do and what it must not do, creating positive tests and negative boundary tests. Focused and Weber Shandwick treat success criteria as an executable constraint throughout development. [4, 6, 8, 9]
+
+Key learning: Define success and failure before optimizing. Use specific dimensions and component tests so an aggregate score does not hide the reason a workflow succeeds or fails.
+
+10. Evaluators must themselves earn trust.
+
+LinkedIn points out that both agents and model-based judges are variable. A judge must be aligned with expert human ratings before its scores are trusted for production decisions. The recordings describe expert-authored rubrics and golden datasets, agreement measures such as Cohen's kappa, and calibration of both a stronger teacher evaluator and a smaller student evaluator. They also treat judging instructions as part of the evaluator, rather than treating the model alone as the judge. [8, 9]
+
+Key learning: Validate the judge, its instructions, and its relationship to human judgment. A model-generated score is evidence that still needs calibration.
+
+11. Human data operations are part of the evaluation system.
+
+LinkedIn describes an annotation studio with permissions, distinct annotator and reviewer roles, and version-controlled rubrics and policies. The final recording distinguishes higher-cost experts for ambiguous work, contractors for greater scale and closer feedback, and vendors for more standardized tasks with slower feedback cycles. Contradictory labels and vague policies can be uncovered during evaluation and sent back for review. [8, 9]
+
+Key learning: Match the work to the right expertise and feedback speed. Maintain the provenance and version of the human standard used to evaluate each system.
+
+12. Production starts two connected improvement loops.
+
+JPMorgan connects offline test cases to online evaluations, periodic human sampling, flagged-case review, and feedback that becomes reusable skills or new tests. Morgan Stanley describes execution evidence informing a new candidate version, followed by evaluation, approval, deployment, and more evidence. LinkedIn emphasizes improving both the agent and the judge, with humans re-entering when judgments disagree. [3, 4, 9]
+
+Key learning: Maintain a loop for improving task performance and a loop for improving the way performance is judged. Keep a living regression suite based on real failures.
+
+13. Traces should become actionable evidence.
+
+The keynote proposes standard agent trajectories that simplify debugging, annotation, and training-data preparation. It also describes tools to cluster failures, reproduce them, propose fixes, and show evidence that a change resolves the problem. Red teaming can discover failures before they appear in real traffic and help create an initial evaluation dataset. Custom inspection interfaces can bring domain experts into the review process. [1]
+
+Morgan Stanley and LinkedIn use traces as input to authoring, annotation, and improvement. Tracing is therefore useful from the beginning, not just after something goes wrong. [3, 8, 9]
+
+Key learning: Capture evidence in a form people and systems can use to diagnose, test, and improve behavior. Logging alone does not create a learning process.
+
+14. Optimize evaluation and training cost without losing the standard.
+
+LinkedIn uses stronger models to align with human expertise and smaller distilled evaluators for cheaper production-scale scoring. It describes an agent-based prompt optimizer that uses a golden dataset, error analysis, tools, memory, and evaluation to improve judging instructions. It may also expose policy ambiguities or label contradictions that require human resolution. [9]
+
+Modal distinguishes using capable off-the-shelf models, supervised fine-tuning, and reinforcement learning. It presents reinforcement learning as powerful but costly and specialized, with substantial demands for rollout infrastructure, judges, and evaluation. The keynote also discusses fast decision models for scoring, guardrails, and routing, plus turning selected trajectories into fine-tuning data. [1, 2]
+
+Key learning: Use the least complex method that meets the evaluated requirement. Preserve human alignment and regression checks when reducing model cost or automating optimization.
+
+15. Trust requires inspectable work and familiar artifacts.
+
+Rogo argues that accuracy is insufficient when users cannot check the computation or source lineage. It emphasizes claim-level citations, intermediate calculations, and output in the formats finance professionals already inspect, including spreadsheets and presentations. A calculation performed in code may still need an auditable spreadsheet representation to fit the user's review process. [7]
+
+JPMorgan's online examples include checking that numbers and claims are grounded in source material and that an answer addresses the original question. Rogo also notes a tension: forcing citations onto every sentence can add latency and impair answers when the task does not require that level of attribution. [4, 7]
+
+Key learning: Design the evidence and artifact for the person who will verify and use it. Apply the level of attribution appropriate to the task.
+
+16. Domain experts supply the last mile and the definition of done.
+
+Rogo's forward-deployed bankers and investors adapt common capabilities to institutional workflows, policies, and systems. JPMorgan's subject matter experts provide business and collaboration skills and supervise agent teams. The keynote positions domain experts alongside platform and agent engineers. Modal describes customer-facing engineers helping users architect, debug, and optimize their applications. [1, 2, 4, 7]
+
+Rogo cautions that a more intelligent model does not automatically infer an organization's standards, regulatory expectations, or preferred deployment decisions. Human-led implementation may eventually be productized in part, but someone still has to establish what good and done mean in the real setting. [7]
+
+Key learning: Treat domain knowledge, integration work, and institutional decisions as essential implementation capabilities. Build tools that make expertise reusable.
+
+17. Give users outcomes through a manageable interaction design.
+
+Apollo describes users wanting to express intent instead of learning an expanding set of features and manually combining tools. Its early agent required many intermediate confirmations, contributing to abandonment. The revised design lets the model plan work using capabilities while a policy layer governs consequential actions. It reports that users were willing to tolerate greater latency when the system actually fulfilled the promised outcome. [5]
+
+Key learning: Measure task completion and continued use, alongside response speed. Put review at meaningful boundaries, and avoid requiring the user to micromanage routine execution.
+
+18. Balance cost, latency, accuracy, and oversight by workflow.
+
+Rogo says these tradeoffs depend on the task and whether a human can review or correct the result. Fully autonomous updates require a different quality threshold from assisted work. The keynote adds spend visibility, team or user limits, rate limiting, and provider fallbacks to the operational picture. Modal discusses shared inference services, automatic performance tuning, and discounted batch execution for work that is insensitive to latency. [1, 2, 7]
+
+Key learning: Evaluate the complete cost of a successful, auditable workflow. Different tasks need different service levels, models, execution schedules, and review arrangements.
+
+19. Embed agents in existing tools and move toward proactive work.
+
+Apollo describes expanding beyond its web app into Slack and other interfaces, then toward background tasks. Rogo works through chat, email, spreadsheets, and presentations and discusses proactive meeting preparation, drafting, and CRM maintenance. Modal connects assistants to CRM and revenue information through internal tool interfaces. The keynote discusses channels and shared authorization, while Morgan Stanley supports UI, API, CLI, and coding-assistant entry points. [1, 2, 3, 5, 7]
+
+Rogo prefers direct integrations where available and treats computer use as a fallback because it is slower, more expensive, and harder to audit. It also describes querying enterprise information in place with iterative searches, while acknowledging that some structured-data cases need more preparation. [7]
+
+Key learning: Meet users where their work already happens. Make access, state, and review consistent as the same agent becomes available through multiple interfaces or starts acting proactively.
+
+20. Invest in durable differentiation while encouraging real adoption.
+
+Modal's infrastructure story shows that useful primitives can precede demand by years, then serve several emerging workloads. Rogo recommends concentrating R&D on specialized systems that general model providers are unlikely to build rather than spending heavily on temporary weaknesses the providers are already improving. At the same time, both the business and product must stay adaptable. [2, 7]
+
+Rogo describes a balance between organizational rollout and organic user pull: training and change management matter, but persistent resistance may indicate poor product quality or the wrong use case. It discusses learning reusable workflows from users while controlling how they are shared. Modal observes that experienced engineers can be especially effective at delegating to agents and lets engineers explore competing tools. [2, 7]
+
+Key learning: Combine deliberate enablement with evidence that users want the result. Invest in reusable domain assets and the ability to learn, while reconsidering investments built around short-lived technical limitations.
+
+KEY LEARNINGS BY RECORDING
+
+[1] Keynote
+  • The three pillars are a controllable, model-neutral harness; compounding improvement; and governance.
+  • Organize the work across core platform engineers, agent engineers, and subject matter experts.
+  • Separate business logic, harness, and infrastructure; managed services can reduce deployment work.
+  • Agent identity, connection authorization, shared-channel permissions, and scoped memory are production concerns.
+  • Fast decision models can support evaluation, guardrails, and routing. Gateways provide cost controls, rate limits, and provider fallbacks.
+  • Standard trajectories, inspection tools, fine-tuning pipelines, reproducible fixes, and red teaming help convert evidence into improvements.
+  • These are announcements and architectural ideas as described in the recording; this file does not assert their current availability.
+
+[2] LangChain + Modal
+  • Build general execution primitives that can support new workloads as they emerge.
+  • Sandbox value depends on isolation, startup time, scale, reliability, and full runtime capability when needed.
+  • Separating the harness from execution environments can enable short-lived tasks, branching, snapshots, and recovery.
+  • Evaluate off-the-shelf models and supervised fine-tuning before undertaking complex reinforcement learning.
+  • Shared or optimized inference, multi-node training, and latency-insensitive batch work address different infrastructure needs.
+  • Customer-facing engineers help make advanced infrastructure usable; experienced engineers can gain from effective delegation to agents.
+  • Voice interaction and low-latency streaming are presented as promising future workloads, rather than established universal replacements for existing interfaces.
+
+[3] Morgan Stanley
+  • A shared, inner-source ecosystem reduces duplicated effort and spreads successful practices.
+  • Assisted authoring can turn requirements into versioned, portable agent definitions using registries and common integrations.
+  • Planning, subagents, context management, persistence, memory, and artifact storage support enterprise execution.
+  • Governance spans access, release approval, and runtime control.
+  • Evidence feeds candidate versions, evaluation, and approved deployment.
+  • Business examples include operational capacity, issue resolution, data analysis, and legacy modernization; the transcription does not reliably support every reported numeric result.
+
+[4] JP Morgan Chase
+  • Jarvis standardizes delivery while preserving composable choices for skills, execution, integrations, and interfaces.
+  • Product, data science, and engineering contribute complementary roles to the delivery process.
+  • Test intended behavior and prohibited behavior before launch, then continue online grounding and relevance checks.
+  • Review both sampled outputs and flagged exceptions; turn the findings into tests and reusable skills.
+  • Subject matter experts supply business judgment and coordination, becoming supervisors of agent teams.
+  • Speed and trust must improve together; launch is the start of operational learning.
+
+[5] Apollo
+  • Users want to express an outcome instead of manually learning and combining every feature.
+  • Hardwired supervisor graphs created extension costs, context problems, and excessive confirmation steps.
+  • The revised system uses a planning loop, skills, a virtual filesystem, isolation, and policy-controlled review.
+  • Model neutrality, customizability, and existing observability influenced the architecture choice.
+  • Measure successful outcomes, retention, and user behavior; lower latency is not the only determinant of value.
+  • Embedded interfaces and autonomous background work are the next direction described in the talk.
+
+[6] Focused + Weber Shandwick
+  • Define success and evaluation criteria up front, then measure each iteration against a baseline.
+  • Extract repeated integrations, classification, ranking, filtering, and synthesis into shared components.
+  • Customize context, policies, thresholds, source choices, and qualitative evaluation for each client.
+  • Use specialized subagents to isolate large tool outputs and return useful summaries to an orchestrator.
+  • Reuse component evaluations so more effort can go into validating client-specific behavior.
+  • The recording ends during the discussion; no missing conclusions have been inferred.
+
+[7] LangChain + Rogo
+  • Finance-specific primitives and domain specialists adapt the system to institutional workflows.
+  • Use memory and proactive suggestions to codify useful practices while preventing sensitive information from crossing boundaries.
+  • Preserve model and harness flexibility; invest in specialized capabilities outside the general model providers' priorities.
+  • Auditability, source attribution, and familiar artifacts are central to trust.
+  • Cost, latency, accuracy, and autonomous-action thresholds vary by task.
+  • Prefer direct integrations where possible; use tightly controlled computer-use environments when necessary.
+  • Agentic search can reduce the need for exhaustive data restructuring in some cases.
+  • Adoption still depends on people, workflows, systems, and a human-established definition of done.
+
+[8] LangChain + LinkedIn
+  • Agent quality needs product-specific metrics and evaluation across the system's components.
+  • Both agents and judges can vary across runs, so trustworthy evaluation requires calibration.
+  • Experts create policies, rubrics, and golden datasets.
+  • Tracing, permissioned annotation, review roles, and versioned standards provide the foundation for evaluation.
+  • This recording ends during the discussion of versioning rubrics.
+
+[9] New Recording 279
+  • Human annotation operations use different levels of expertise, scale, cost, and feedback speed.
+  • Stronger teacher evaluators can be distilled into cheaper production evaluators, with agreement checks.
+  • Model choice, judging instructions, and the agreement metric are separate parts of a judge.
+  • An agent-based prompt optimizer can analyze errors, improve instructions, and identify ambiguous policy or inconsistent labels.
+  • Improve the agent and the judge in parallel; bring humans back into disagreements.
+  • Hiring Assistant provides the example of detailed evaluation across multiple dimensions and subagents.
+  • Maintain tracing from the beginning and a living regression suite derived from observed failures.
+
+IMPORTANT TENSIONS TO MANAGE
+
+  • Reuse versus customization: share capability implementations while preserving client context, permissions, and local quality criteria. [3, 4, 6, 7]
+  • Autonomy versus review friction: fewer check-ins can improve the experience, but boundaries and exceptional cases still require deliberate control. [4, 5, 7]
+  • Attribution versus latency and fluency: the necessary level of evidence depends on the task and the user's review needs. [7]
+  • Memory reuse versus confidentiality: share a useful method without exposing the sensitive material that produced it. [1, 7]
+  • Cheap automated evaluation versus trustworthy judgment: lower-cost judges need calibration, regression testing, and human resolution of disagreement. [8, 9]
+  • Durable infrastructure versus changing architectures: reusable primitives create value, but assumptions about models and harnesses must remain revisable. [1, 2, 5, 7]
+  • Push versus pull: enable and teach users while checking whether the product creates enough value to attract continued use. [7]
+  • More model intelligence versus organizational readiness: better models help, but integration, permissions, standards, and decisions about deployment still require work. [7]
+
+PRACTICAL ACTIONS DERIVED FROM THE RECORDINGS
+
+1. Define a complete domain workflow and its definition of done. Identify its users, source systems, required artifacts, intended outcomes, prohibited actions, and review responsibilities.
+
+2. Separate common capabilities from local configuration. Establish reusable tools and skills, with explicit interfaces, ownership, versioning, and client or tenant boundaries.
+
+3. Build the evidence path early. Capture traces, prepare inspectable outputs, define rubrics, create representative tests, and record which version of a standard produced each evaluation.
+
+4. Calibrate evaluators before scaling them. Compare judges with expert ratings, analyze disagreements, and validate cheaper evaluators before relying on them for production decisions.
+
+5. Design the execution environment. Decide how state persists, how work resumes, what belongs in memory or artifact storage, and what isolated runtime each action needs.
+
+6. Put governance into execution. Use scoped identity and permissions, release reviews, runtime policy checks, approval thresholds, and evidence of consequential actions.
+
+7. Operate both improvement loops. Feed real failures into agent changes and regression tests, and separately refine judges, rubrics, and human labels when evaluation proves unreliable.
+
+8. Measure the user's outcome and the complete cost. Include task success, auditability, retention, review effort, latency, model cost, and recovery from failure.
+
+9. Make domain expertise reusable. Give specialists ways to author skills, review outputs, resolve ambiguity, and teach the system how a team actually works.
+
+10. Expand into proactive or background work where the system has earned trust. Keep access, review, and state consistent across the tools users already use.
+
+11. Reassess model and infrastructure choices regularly. Favor improvements to durable domain assets over elaborate solutions to temporary limitations unless a present business requirement justifies them.
+
+OPEN QUESTIONS RAISED ACROSS THE RECORDINGS
+
+  • What is the domain advantage beyond access to the model?
+  • Which repeated capabilities and evaluations should become shared platform services?
+  • What does good work mean for each task, and who has authority to define it?
+  • How is the reliability of the judge established and maintained?
+  • What information may move from personal memory to shared organizational knowledge?
+  • Can users inspect the sources, calculations, and decisions behind the output?
+  • Where should the agent ask for approval, and where are confirmations merely adding friction?
+  • Which workflows are ready for proactive execution, and what evidence establishes that readiness?
+  • Which barriers are model limitations, and which are integration or institutional decisions?
+  • Are users choosing to continue, or is adoption depending entirely on mandates?
